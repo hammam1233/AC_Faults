@@ -1,0 +1,2978 @@
+[
+  {
+    "category": "normal",
+    "brand": "Haier",
+    "lang": "en",
+    "fault_name": "F1",
+    "check_text": "Checking the control unit (electronic board)",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "Haier",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Check the internal temperature sensor",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Haier",
+    "lang": "en",
+    "fault_name": "E14",
+    "check_text": "Check the fan motor in the indoor unit",
+    "solution": "Ensure that there is sufficient power to run the engine - repair or replace the engine if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Haier",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Check the temperature sensor in the outdoor unit",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Haier",
+    "lang": "en",
+    "fault_name": "F22",
+    "check_text": "Power surge protection",
+    "solution": "Cleaning the external unit (and internal if necessary) - Checking the compressor and making sure the amperage is being drawn normally - Checking the capacitors and replacing damaged ones."
+  },
+  {
+    "category": "normal",
+    "brand": "Haier",
+    "lang": "en",
+    "fault_name": "F19",
+    "check_text": "Voltage frequency protection",
+    "solution": "Checking the electricity source - installing an electrical voltage stabilizer if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "Haier",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Malfunction in the cooling coil sensor in the indoor unit",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Malfunction in the electronic board",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Malfunction in the electronic board connections",
+    "solution": "Review the electronic board connections"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Repair or replace the engine"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Malfunction in the internal unit sensor",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "Malfunction in the cooling coil sensor in the indoor unit",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E7",
+    "check_text": "Malfunction in the capacitor sensor in the outdoor unit",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E8",
+    "check_text": "Malfunction in the outdoor unit fan motor",
+    "solution": "Repair or replace the engine"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E9",
+    "check_text": "Malfunction in the connections between the outdoor unit and the indoor unit",
+    "solution": "Review the connections between the outdoor unit and the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "EC",
+    "check_text": "A malfunction led to the compressor stopping operation",
+    "solution": "Checking the Freon charge - checking the capacitor - checking the contactor - replacing the damaged part"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E0",
+    "check_text": "Malfunction in the electronic board",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Malfunction in the air sensor in the indoor unit",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Malfunction in the cooling coil sensor in the indoor unit",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Malfunction in the capacitor sensor in the outdoor unit",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "EB",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "EC",
+    "check_text": "A malfunction led to the compressor stopping operation",
+    "solution": "Checking the Freon charge - checking the capacitor - checking the contactor - replacing the damaged part"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "P9",
+    "check_text": "Protection against high temperature of the external unit or the defrosting function of the cooling coil",
+    "solution": "Clean the external unit (and internal if necessary) - Check the compressor"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E0",
+    "check_text": "Malfunction in the external condenser sensor or the defrost sensor",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "en",
+    "check_text": "Malfunction in the cooling coil sensor inside",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "ER",
+    "check_text": "Malfunction in the air sensor inside",
+    "solution": "Clean the sensor - replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E.D",
+    "check_text": "Fun engine failure",
+    "solution": "Repair or replace the fan motor"
+  },
+  {
+    "category": "normal",
+    "brand": "Unionair",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Replace the air sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Unionair",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Malfunction in the cooling coil sensor",
+    "solution": "Replace the cooling coil sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Unionair",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Malfunction in the condenser coil sensor in the external unit",
+    "solution": "Replace the condenser coil sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Unionair",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "A malfunction led to the compressor stopping",
+    "solution": "Checking the Freon charge - checking the capacitor - checking the contactor - replacing the damaged part"
+  },
+  {
+    "category": "normal",
+    "brand": "Unionair",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Malfunction leak Freon",
+    "solution": "evaporator blockage or voltage fluctuation (increase or decrease)-Adjusting the Freon charge - cleaning and washing the filters and evaporator in the indoor unit (and also washing the outdoor unit if necessary - checking the voltage (and using a voltage stabilizer if necessary))"
+  },
+  {
+    "category": "normal",
+    "brand": "Sharp Smart",
+    "lang": "en",
+    "fault_name": "F0",
+    "check_text": "Freon leak - dirty internal unit or the presence of a barrier that hinders air movement - inability to operate the compressor - malfunction in the cooling coil (evaporator) sensor.",
+    "solution": "Adjusting the Freon charge and treating the leak - Cleaning and washing the internal unit and filters - Checking the voltage supplied to the compressor and checking the compressor - Checking the compressor contactor (if present) and checking the compressor - Replacing the cooling coil sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Sharp Smart",
+    "lang": "en",
+    "fault_name": "F1",
+    "check_text": "Malfunction in the cooling coil (evaporator) sensor or the air sensor of the indoor unit - Malfunction in the electronic board",
+    "solution": "Replacing the cooling coil sensor or air sensor - repairing or replacing the electronic board (with the same model of the device)"
+  },
+  {
+    "category": "normal",
+    "brand": "Sharp Smart",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Malfunction in the cooling coil (evaporator) sensor - Malfunction in the electronic board",
+    "solution": "Replacing the cooling coil (evaporator) sensor - Repairing or replacing the electronic board (with the same device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "Toast",
+    "lang": "en",
+    "fault_name": "F0",
+    "check_text": "Freon gas leak",
+    "solution": "Repairing the Freon gas leak and controlling the charge"
+  },
+  {
+    "category": "normal",
+    "brand": "Toast",
+    "lang": "en",
+    "fault_name": "F1",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Replace the air sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Toast",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Replacing the cooling coil sensor (evaporator)"
+  },
+  {
+    "category": "normal",
+    "brand": "Toast",
+    "lang": "en",
+    "fault_name": "F3",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Replace the condenser coil sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Toast",
+    "lang": "en",
+    "fault_name": "F4",
+    "check_text": "Malfunction in the condenser temperature sensor",
+    "solution": "Replace the condenser temperature sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Toast",
+    "lang": "en",
+    "fault_name": "F5",
+    "check_text": "Malfunction in the ejection or suction line sensor",
+    "solution": "Replace the damaged sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Toast",
+    "lang": "en",
+    "fault_name": "F6",
+    "check_text": "A malfunction led to the compressor stopping (overload) due to an overload",
+    "solution": "Checking the cleanliness of the outdoor unit (and washing it if necessary) - Checking the outdoor unit fan motor - Checking and adjusting the Freon gas charge - Checking the electrical parts (contactor + compressor)"
+  },
+  {
+    "category": "normal",
+    "brand": "Tornado",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Replace the air sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Tornado",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Replace the cooling coil sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Tornado",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Malfunction in the air sensor of the outdoor unit",
+    "solution": "Replace the air sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Tornado",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Tornado",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Compressor amp malfunction",
+    "solution": "Checking the condenser - checking the voltage - checking the blower of the outdoor unit (and washing it if necessary) - checking the compressor - checking the contactor - checking the fan motor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Tornado",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "Disconnect high pressure protection",
+    "solution": "Check the high pressure sensor and replace it if it is damaged - Check the Freon charge - Check the cleanliness of the outdoor unit (and wash it if necessary) - Ensure that there is no clog in the Freon cooling circuit - Check the fan motor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Tornado",
+    "lang": "en",
+    "fault_name": "E8",
+    "check_text": "Malfunction in the electronic board in the indoor unit",
+    "solution": "Repair or replace it with the same device model"
+  },
+  {
+    "category": "normal",
+    "brand": "Tornado",
+    "lang": "en",
+    "fault_name": "E9",
+    "check_text": "Communication error between the indoor unit and the outdoor unit",
+    "solution": "Check the electronic board in the indoor unit - Check the cable connected between the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "The signal lamp gives off a wavering light once",
+    "check_text": "Malfunction in the cooling coil (evaporator) sensor of the indoor unit",
+    "solution": "Replace the cooling coil (evaporator) sensor in the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "The signal lamp gives two flashes",
+    "check_text": "Malfunction in the condenser coil sensor in the outdoor unit",
+    "solution": "Replace the condenser coil sensor in the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "The signal lamp gives off a light - alternating four times",
+    "check_text": "Compressor temperature rise",
+    "solution": "Checking the compressor - checking the condenser - checking the voltage - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "The signal lamp gives off light - alternating 7 times",
+    "check_text": "Malfunction in the air conditioner’s power supply (voltage)",
+    "solution": "Check the electrical source (voltage)"
+  },
+  {
+    "category": "normal",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "The signal lamp gives off light - alternating 5 times",
+    "check_text": "Communication error between the indoor unit and the outdoor unit",
+    "solution": "Check the electronic board in the indoor unit - Check the cable connected between the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "The signal lamp gives light - alternating 10 times",
+    "check_text": "Malfunction in the defrost sensor in the indoor unit - Malfunction in the air sensor in the indoor unit",
+    "solution": "Replace the damaged sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "LED bulb gives light - twice as fast",
+    "check_text": "Malfunction in the air sensor in the indoor unit",
+    "solution": "Replace the air sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E201",
+    "check_text": "Malfunction in the connection between the two units",
+    "solution": "Make sure to connect the cables between the two units"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E202",
+    "check_text": "Communication failure between the two units",
+    "solution": "Inspect the electronic board in the internal and external unit - repair or replacement if necessary"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E203",
+    "check_text": "Malfunction in the main inverter connection",
+    "solution": "Checking the electronic board - repairing the electronic board and replacing it if necessary"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E221",
+    "check_text": "Malfunction in the condenser coil sensor in the outdoor unit",
+    "solution": "Replace the sensor if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E231",
+    "check_text": "Malfunction in the condenser temperature sensor",
+    "solution": "Replace the sensor if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E251",
+    "check_text": "Malfunction in the high pressure sensor",
+    "solution": "Checking the high pressure sensor and replacing it if it is damaged - checking the Freon charge - checking the cleanliness of the external unit (and washing it if necessary) - making sure there is no blockage in the Freon cooling circuit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E320",
+    "check_text": "Malfunction in the oil pressure sensor",
+    "solution": "Check the oil pressure sensor and replace it if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E403",
+    "check_text": "Malfunction in the ice accumulation sensor on the outdoor unit",
+    "solution": "Checking the ice accumulation sensor and replacing it if it is damaged - checking the Freon charge - checking the cleanliness of the external unit (and washing it if necessary) - making sure there is no blockage in the Freon cooling circuit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E404",
+    "check_text": "Overload protection for the external unit",
+    "solution": "Checking the Freon charge - checking the cleanliness of the external unit (and washing it if necessary)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E416",
+    "check_text": "Gas overheating protection for high pressure in the outdoor unit",
+    "solution": "Check the condenser sensor in the outdoor unit - Check the cleanliness of the outdoor unit (and wash it if necessary) - Replace the sensor if necessary"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E440",
+    "check_text": "The heating process is not possible when the temperature is more than 30 degrees Celsius in the external environment",
+    "solution": "Ensure that the remote or thermostat is set to the cooling mode - Check the refrigeration cycle inverter and replace it if necessary"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E441",
+    "check_text": "The cooling process is not possible when the temperature is less than -5°C in the outside environment",
+    "solution": "Ensure that the remote or thermostat is set to the heating mode - Check the cooling cycle inverter and replace it if necessary"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E458",
+    "check_text": "Malfunction in one of the external fan motors",
+    "solution": "Check the outdoor unit fan motor and replace it"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E461",
+    "check_text": "Error in compressor startup",
+    "solution": "Checking the compressor - checking the voltage - checking the compressor wires and making sure they are installed correctly in the electronic panel - making sure that sufficient current is reaching the compressor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E462",
+    "check_text": "Starting circuit breaker",
+    "solution": "Checking the electrical source - checking the compressor wires - checking the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E464",
+    "check_text": "Overcurrent",
+    "solution": "Check the electricity source and check the voltage - Check the Freon charge - Make sure there is no blockage in the cooling circuit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E465",
+    "check_text": "Overload on the compressor",
+    "solution": "Checking the Freon charge - checking the presence of a clog in the cooling circuit - checking the cycle reversing valve - checking the Freon diffusion device"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E467",
+    "check_text": "Malfunction in the compressor wires",
+    "solution": "Check the compressor wires and make sure they are installed correctly in the electronic panel"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E471",
+    "check_text": "An error in programming the memory for the electronic board in the external unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E484",
+    "check_text": "Malfunction in the PFCM or IPM temperature sensor",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E554",
+    "check_text": "Freon leak",
+    "solution": "Checking and treating the leak site - adjusting the Freon charge"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E121",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Replace the air sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E122",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Replacing the cooling coil sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E154",
+    "check_text": "Malfunction in the fan motor of the indoor unit",
+    "solution": "Check the fan motor of the indoor unit - ensure that power is reaching the motor - replace it if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E162",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Replace the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E474",
+    "check_text": "Malfunction in the condenser sensor of the outdoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E464",
+    "check_text": "#VALUE!",
+    "solution": "Repairing the electronic board through the factory or replacing it"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E483",
+    "check_text": "Fault in high voltage protection",
+    "solution": "Check the electrical source (voltage)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E101",
+    "check_text": "Error in connection between the two units",
+    "solution": "Ensure good connectivity between the two units - Examine the wires connecting the two units - The wires connecting the two units must be complete wires without any links or connections so that the wire is continuous between the two units"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E102",
+    "check_text": "Error in connection between the two units",
+    "solution": "Ensure good connectivity between the two units - Examine the wires connecting the two units - The wires connecting the two units must be complete wires without any links or connections so that the wire is continuous between the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Malfunction in the air sensor of the indoor unit or the fan motor of the indoor unit",
+    "solution": "Check the air sensor of the indoor unit - Check the fan motor of the indoor unit - Replace the sensor if it is damaged - Replace the fan motor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "The air conditioner runs for 10 seconds and turns off",
+    "check_text": "Malfunction in the air sensor or the cooling coil sensor (evaporator)",
+    "solution": "Replace the damaged sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Malfunction in the cooling coil (evaporator) sensor of the indoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Malfunction of the fan motor of the indoor unit",
+    "solution": "Inspecting the motor - ensuring that the necessary power is supplied to the motor - replacing the motor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "Malfunction in the electronic board",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "The timer light is flashing",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Replace the damaged sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "The timer light and power light are flashing",
+    "check_text": "Malfunction in the cooling coil (evaporator) sensor of the indoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "The turbo light and running light are flashing",
+    "check_text": "Malfunction of the fan motor of the indoor unit-Check the motor - Ensure that the necessary power is supplied to the motor - Replace the motor if it is damaged - If the fault persists",
+    "solution": "change the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "Samsung",
+    "lang": "en",
+    "fault_name": "The turbo light and timer light are flashing",
+    "check_text": "Malfunction in the electronic board",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F6",
+    "check_text": "Faulty fan motor",
+    "solution": "internal unit sensor- or low cooling efficiency-Check the engine - Ensure that the necessary power is supplied to the engine - Replace the engine if it is damaged - If the malfunction persists- change the electronic board - Check the sensor or replace it if it is damaged - Check the Freon charge - Clean the filters and wash the internal unit"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F7",
+    "check_text": "A malfunction in the air sensor of the indoor unit or a fault in the connection between the two units",
+    "solution": "Replace the damaged sensor - check the connection wires between the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F8",
+    "check_text": "Malfunction in the cooling coil (evaporator) sensor or high amperage",
+    "solution": "Replace the damaged sensor - check the Freon charge - check the compressor - ensure that there are no blockages in the circuit"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F9",
+    "check_text": "Malfunction in the external unit’s condenser coil sensor or high compressor temperature",
+    "solution": "Replace the condenser coil sensor if it is damaged - Ensure that there is no blockage in the cooling circuit - Check and adjust the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F10",
+    "check_text": "Damage to the circuit or a decrease in the Freon charge",
+    "solution": "Checking the circuit and making sure there are no clogs in the circuit - adjusting the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Freon high pressure protection",
+    "solution": "Check the exhaust line sensor and replace it if it is damaged - Check the Freon charge and adjust it - Ensure that there are no blockages in the refrigeration circuit"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Protection from ice formation on the external condenser",
+    "solution": "Checking the cooling cycle reversing valve - checking and replacing the sensor - checking and adjusting the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Freon low pressure protection",
+    "solution": "Check the suction line sensor and replace it if it is damaged. Check and adjust the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Low or high voltage protection",
+    "solution": "Check the electricity source - install a voltage stabilizer if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "Connection error between the two units",
+    "solution": "Checking the wires between the two units - checking the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F1",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Malfunction in the cooling coil sensor of the indoor unit (evaporator)",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F3",
+    "check_text": "Malfunction in the air sensor of the outdoor unit",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F4",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F5",
+    "check_text": "Malfunction in the ejection line sensor",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F0",
+    "check_text": "Blockage in the cooling circuit or low Freon charge",
+    "solution": "Checking the location of the leak and repairing it - adjusting the Freon charge - treating the blockage and cleaning the cooling circuit (nitrogen + Freon 11)"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "Cool bulb is flashing",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "The operating light is flashing",
+    "check_text": "Malfunction in the cooling coil sensor of the indoor unit (evaporator)",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "The heater bulb is flashing",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "The temperature of the evaporator coil does not decrease during cooling and does not increase during heating",
+    "solution": "Reviewing the contact of the sensor sensor with the coil pipes - adjusting the Freon charge - checking the compressor - checking the refrigeration cycle inverter"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "A connection error between the two units or a failure of communication between the electronic board and the receiver",
+    "solution": "Checking the connection cable between the two units - Checking the cable between the receiver and the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "E7",
+    "check_text": "Problem with the temperature change system",
+    "solution": "The display panel is changed"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F7",
+    "check_text": "Malfunction in the air sensor in the indoor unit",
+    "solution": "Check or replace the air sensor in the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F8",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Check or replace the cooling coil (evaporator) sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F6",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check the indoor unit fan motor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F10",
+    "check_text": "Freon leak or blockage in the cooling circuit",
+    "solution": "Discovering the location of the Freon leak and repairing it - controlling the Freon charge - ensuring that there are no clogs in the cooling circuit"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "F9",
+    "check_text": "Malfunction in the condenser coil sensor in the outdoor unit",
+    "solution": "Check or replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "York",
+    "lang": "en",
+    "fault_name": "E0",
+    "check_text": "Drop in voltage",
+    "solution": "Check the voltage - install a voltage stabilizer if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "crafft",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "crafft",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "crafft",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Malfunction in the cooling coil sensor of the indoor unit (evaporator)",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "crafft",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Malfunction of the fan motor of the indoor unit",
+    "solution": "Check the motor - Ensure that the necessary power is supplied to the motor - Replace the motor if it is damaged - If the fault persists- change the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "crafft",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Low Freon charge malfunction",
+    "solution": "Review the location of the leak and repair it - adjust the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "crafft",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "A malfunction led to the compressor stopping",
+    "solution": "Checking the cleanliness of the outdoor unit (and washing it if necessary) - Checking the outdoor unit fan motor - Checking and adjusting the Freon gas charge - Checking the electrical parts (contactor + compressor)"
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "E33",
+    "check_text": "Malfunction in the cooling coil sensor of the indoor unit (evaporator)",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "E34",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "E38",
+    "check_text": "Malfunction in the electronic board",
+    "solution": "Checking the electronic board - repairing the electronic board and replacing it if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "E39",
+    "check_text": "Malfunction of the fan motor of the indoor unit",
+    "solution": "Check the motor - Ensure that the necessary power is supplied to the motor - Replace the motor if it is damaged - If the fault persists- change the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "E41",
+    "check_text": "A malfunction in the electronic control panel",
+    "solution": "Review the electronic board connections - Review the neutral connection - After review- disconnect the device from the electricity source for 5 minutes and turn it on again."
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "E42",
+    "check_text": "The indoor unit is in defrost condition (this is not a malfunction)",
+    "solution": "If the symbol appears repeatedly- wash the filters and the indoor unit well - dry the indoor unit well before operating - review and adjust the Freon charge - review the indoor unit motor - and replace it if it is slow in movement"
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "E43",
+    "check_text": "Protection against evaporator overheating",
+    "solution": "Checking and controlling the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Malfunction of the fan motor of the indoor unit",
+    "solution": "Check the motor - Ensure that the necessary power is supplied to the motor - Replace the motor if it is damaged - If the fault persists- change the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "Hisense",
+    "lang": "en",
+    "fault_name": "EA",
+    "check_text": "Malfunction in the receiver (receiving the signal from the remote)",
+    "solution": "Check the connection cable between the receiver and the electronic board - check the receiver and replace it if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E0",
+    "check_text": "Error in connection between the two units",
+    "solution": "Check the connection cable between the two units - ensure the correct connection"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Error in connection between the two units",
+    "solution": "Check the connection cable between the two units - ensure the correct connection"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Protection against high or low voltage reaching the air conditioner",
+    "solution": "Verify and check the electricity source - check the voltage"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check the motor - Ensure that the necessary power is supplied to the motor - Replace the motor if it is damaged - If the fault persists- change the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "F1",
+    "check_text": "Malfunction in the air sensor in the outdoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Malfunction in the condenser coil sensor in the external unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "F3",
+    "check_text": "Compressor overheating protection",
+    "solution": "Checking the Freon charge - checking the compressor temperature sensor - ensuring that there is no blockage in the refrigeration circuit - checking the compressor and ensuring the integrity of the connections"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "F4",
+    "check_text": "Malfunction in the electronic board in the indoor unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "F5",
+    "check_text": "There is a malfunction in the condenser fan in the outdoor unit or the outdoor unit is not clean",
+    "solution": "Replace the fan motor if it is damaged - Wash and clean the unit well if it is dirty"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "F6",
+    "check_text": "Malfunction of the compressor",
+    "solution": "Checking the electrical current - Checking the compressor and ensuring the integrity of the connections - Ensuring that the electrical current is reaching the compressor - Ensuring that there are no blockages in the refrigeration circuit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "F7",
+    "check_text": "Defect: compressor temperature rises above normal",
+    "solution": "Checking the Freon charge - checking the compressor temperature sensor - ensuring that there is no blockage in the refrigeration circuit - checking the compressor and ensuring the integrity of the connections"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "F8",
+    "check_text": "The compressor stopped working due to overload",
+    "solution": "Checking the Freon charge - checking the presence of a clog in the cooling circuit - checking the cycle reversing valve - checking the Freon diffusion device"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "EC",
+    "check_text": "A malfunction led to the compressor stopping",
+    "solution": "Checking the Freon charge - checking the high pressure sensor - checking the low pressure sensor - making sure there is no blockage in the circuit - making sure the power is reaching the compressor - checking the compressor connections - checking the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "PC",
+    "check_text": "Protection against low air temperature surrounding the outdoor unit",
+    "solution": "Ensure that the remote control for the air conditioner is set - turn off and turn on the air conditioner after five minutes"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Carrier",
+    "lang": "en",
+    "fault_name": "P.H",
+    "check_text": "Protection against high temperature of the air surrounding the outdoor unit",
+    "solution": "Ensure that the remote control for the air conditioner is set - turn off and turn on the air conditioner after five minutes"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Malfunction in the cooling coil sensor in the indoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "F1",
+    "check_text": "Malfunction in the air sensor in the outdoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Malfunction in the air sensor in the outdoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "F3",
+    "check_text": "Compressor high temperature alert",
+    "solution": "Checking the Freon charge - checking the compressor temperature sensor - ensuring that there is no blockage in the refrigeration circuit - checking the compressor and ensuring the integrity of the connections"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "E0",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Error in connection between the two units",
+    "solution": "Check the connection cable between the two units - ensure the correct connection"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Electrical fault",
+    "solution": "Check the electrical source (voltage)"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check the motor - Ensure that the necessary power is supplied to the motor - Replace the motor if it is damaged - If the fault persists- change the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Malfunction in the air sensor in the indoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "P0",
+    "check_text": "Malfunction in the electronic board",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "P1",
+    "check_text": "High or low voltage alert",
+    "solution": "Check the electrical source (voltage) - install an electrical voltage stabilizer if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "P4",
+    "check_text": "Malfunction in the electronic board of the outdoor unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "F5",
+    "check_text": "Malfunction in the fan motor speeds in the outdoor unit",
+    "solution": "Inspecting the engine - checking the cleanliness of the external unit and cleaning it if necessary - replacing the engine if necessary"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EH60",
+    "check_text": "Malfunction in the air sensor in the indoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EH61",
+    "check_text": "Malfunction in the cooling coil (evaporator) sensor in the indoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EC53",
+    "check_text": "Malfunction in the air sensor in the outdoor unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EC52",
+    "check_text": "Malfunction in the condenser coil sensor in the external unit",
+    "solution": "Replace the sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EC54",
+    "check_text": "Malfunction in the high pressure sensor",
+    "solution": "Check the Freon charge - replace the sensor if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EH00",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EH0R",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EL01",
+    "check_text": "Communication error between the indoor unit and the outdoor unit",
+    "solution": "Review the connections between the external unit and the internal unit - inspect the electronic board of the two units (external and internal) and replace them if necessary"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EL03",
+    "check_text": "Malfunction of the fan motor in the indoor unit",
+    "solution": "Check the motor - Ensure that the necessary power is supplied to the motor - Replace the motor if it is damaged - If the fault persists- change the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EH0b",
+    "check_text": "Malfunction in the display screen and its connection to the electronic board",
+    "solution": "Check the connection cable to the electronic board - replace it if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EC51",
+    "check_text": "Malfunction in the electronic board of the external unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "PC00",
+    "check_text": "Malfunction in the electronic board",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "PC04",
+    "check_text": "Malfunction in the compressor or electronic board in the outdoor unit",
+    "solution": "Check the compressor - Ensure the integrity of the compressor connections to the electronic board - Check the Freon charge - If the compressor is healthy- replace the electronic board in the external unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EL0c",
+    "check_text": "A malfunction led to the compressor stopping",
+    "solution": "Checking the Freon charge - checking the high pressure sensor - checking the low pressure sensor - making sure there is no blockage in the circuit - making sure the power is reaching the compressor - checking the compressor connections - checking the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "F0",
+    "check_text": "Power surge protection",
+    "solution": "Check the electrical power source - ensure that the air conditioner electrical switch is safe"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "EC07",
+    "check_text": "Malfunction in the fan motor of the outdoor unit",
+    "solution": "Check the fan motor in the outdoor unit - check the cleanliness of the outdoor unit and clean it if necessary - replace the motor if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "PC11",
+    "check_text": "Protection against high voltage",
+    "solution": "Checking the electrical power source - ensuring the safety of the air conditioner’s electrical switch - installing a voltage stabilizer if necessary"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "PC49",
+    "check_text": "High amp compressor",
+    "solution": "Checking the compressor - ensuring that there is no blockage in the refrigeration circuit - checking the Freon charge"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "PC06",
+    "check_text": "High temperature of Freon gas in the exhaust line of the compressor",
+    "solution": "Checking the cleanliness of the outdoor unit (and washing it if necessary) - Checking the outdoor unit fan motor - Checking and adjusting the Freon gas charge - Checking the sensor and replacing it if it is damaged."
+  },
+  {
+    "category": "Inverter",
+    "brand": "Media",
+    "lang": "en",
+    "fault_name": "PH90",
+    "check_text": "High temperature (evaporator)",
+    "solution": "Checking the Freon charge - checking the diffusion device - checking the cleanliness of the external unit and cleaning it if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Protection from high pressure or air sensor in the indoor unit",
+    "solution": "Checking the air sensor and replacing it if it is damaged - checking and adjusting the Freon charge - checking the outdoor unit fan motor - checking the cleanliness of the outdoor unit and cleaning it if necessary - ensuring that there is no blockage in the cooling circuit - checking the high pressure sensor if it is present in the system"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Low pressure protection or cooling coil (evaporator) sensor",
+    "solution": "Check the sensor and replace it if it is damaged - Check the indoor unit fan motor and replace it if it is damaged - Check the Freon charge and adjust it - Check the low pressure sensor if it is present in the system"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Protection against freezing of the cooling coil in the indoor unit or a malfunction in the condenser coil sensor",
+    "solution": "Check the condenser coil sensor and replace it if it is damaged - Check the indoor unit fan motor - Check the cleanliness of the filters and cooling coil of the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Protection against high temperature in the cooling coil (evaporator) or excessive load on the compressor",
+    "solution": "Checking the Freon charge - ensuring that there is no blockage in the cooling circuit - checking the diffusion device - checking the compressor"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "A malfunction in the air temperature sensor in the indoor unit or a Freon leak",
+    "solution": "Checking the Freon charge - reviewing the location of the leak and repairing it - replacing the cooling coil sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "A malfunction in the cooling coil (evaporator) sensor or a malfunction in the ejection or intake sensor",
+    "solution": "Checking the cooling coil sensor in the indoor unit - Checking the ejection sensor of the compressor (high pressure) - Checking the intake sensor of the compressor (low pressure) - Checking the cleanliness of the indoor and outdoor unit - Checking the fan motor of the indoor and outdoor unit - Checking the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E7",
+    "check_text": "Malfunction in the condenser coil sensor in the external unit",
+    "solution": "Replace the sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E8",
+    "check_text": "Fire alarm protection",
+    "solution": "Checking the electrical connections - checking the compressor connections - checking the electrical source"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E9",
+    "check_text": "Communication error between the indoor unit and the outdoor unit",
+    "solution": "Check the cable connecting the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "AC",
+    "check_text": "Freon leak",
+    "solution": "Checking the location of the Freon leak and repairing it - adjusting the Freon charge after removing moisture from the circuit (vacuum)"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E10",
+    "check_text": "Freon leak",
+    "solution": "Checking the location of the Freon leak and repairing it - adjusting the Freon charge after removing moisture from the circuit (vacuum)"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E11",
+    "check_text": "Defrosting the outdoor unit",
+    "solution": "There is no malfunction in the device just wait until the defrosting time is over"
+  },
+  {
+    "category": "normal",
+    "brand": "Zamil",
+    "lang": "en",
+    "fault_name": "E12",
+    "check_text": "Overload on the compressor",
+    "solution": "Checking the Freon charge - checking the presence of a clog in the cooling circuit - checking the cycle reversing valve - checking the Freon diffusion device"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH01",
+    "check_text": "Malfunction in the air sensor in the indoor unit",
+    "solution": "Replace the air sensor of the indoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "Ch06",
+    "check_text": "Malfunction in the air sensor in the indoor unit",
+    "solution": "Replace the air sensor of the indoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH02",
+    "check_text": "Malfunction in the cooling coil sensor in the indoor unit",
+    "solution": "Replacing the cooling coil sensor (evaporator)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "Ch012",
+    "check_text": "Malfunction in the cooling coil sensor in the indoor unit",
+    "solution": "Replacing the cooling coil sensor (evaporator)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH03",
+    "check_text": "Malfunction in the electronic board in the indoor unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH09",
+    "check_text": "Malfunction in the electronic board in the indoor unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH05",
+    "check_text": "Communication failure between the internal unit and the external unit",
+    "solution": "Check the electronic board of the indoor unit and ensure the integrity of the fuse - Verify the electrical connections between the two units - If the malfunction persists- change the electronic board of the indoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH010",
+    "check_text": "Malfunction of the fan motor of the indoor unit",
+    "solution": "Replace the fan motor if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH40",
+    "check_text": "Malfunction in the electronic board of the outdoor unit",
+    "solution": "Replace the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH41",
+    "check_text": "Malfunction in the temperature sensor in the compressor exhaust line",
+    "solution": "Check the cleanliness of the external unit and wash it if it is dirty - Check the Freon charge - Make sure there is no blockage in the cooling circuit - Check the sensor and replace it if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH44",
+    "check_text": "Malfunction in the air sensor of the outdoor unit",
+    "solution": "Replace the air sensor of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "Ch45",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "Ch48",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "Ch34",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "Ch43",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH46",
+    "check_text": "Malfunction in the compressor intake line sensor",
+    "solution": "Checking the Freon charge - checking the internal fan motor and ensuring that all speeds are working - replacing the intake line sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH32",
+    "check_text": "Malfunction in the compressor intake line sensor",
+    "solution": "Check the Freon charge - Check the internal fan motor and ensure that all speeds are working - Replace the intake line sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH23",
+    "check_text": "Voltage protection - electronic board",
+    "solution": "Inspecting the electrical source - checking the voltage value - installing a voltage stabilizer if necessary"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH26",
+    "check_text": "Malfunction in the compressor terminals",
+    "solution": "Inspecting the compressor - examining the cable connected between the compressor and the electronic board - ensuring that operating signals reach the compressor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH27",
+    "check_text": "High amperage protection - malfunction in the electronic board",
+    "solution": "Check the device’s amperage when operating - if the amperage is high- check the cleanliness of the outdoor unit - check the fan motor of the outdoor unit and verify the speed - ensure that there is no blockage in the cooling circuit - replace the electronic board of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH29",
+    "check_text": "Damage to the circuit or a decrease in the Freon charge - Malfunction in the expansion valve - Malfunction in the compressor connections - The external unit is dirty - A place that is not well ventilated - Protection from high voltage",
+    "solution": "Ensure that there are no clogs in the circuit - check the Freon charge - check the expansion valve - check the cable connecting the compressor and the electronic board - check the cleanliness of the outdoor unit and wash it if necessary - check the outdoor fan motor and verify the speeds - check the voltage - install a voltage stabilizer if necessary - ensure that the outdoor unit is in a place with adequate ventilation"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH21",
+    "check_text": "Damage to the circuit or a decrease in the Freon charge - Malfunction in the expansion valve - Malfunction in the compressor connections - The external unit is dirty - A place that is not well ventilated - Protection from high voltage",
+    "solution": "Ensure that there are no clogs in the circuit - check the Freon charge - check the expansion valve - check the cable connecting the compressor and the electronic board - check the cleanliness of the outdoor unit and wash it if necessary - check the outdoor fan motor and verify the speeds - check the voltage - install a voltage stabilizer if necessary - ensure that the outdoor unit is in a place with adequate ventilation"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH22",
+    "check_text": "Damage to the circuit or a decrease in the Freon charge - expansion valve - compressor connections - cleanliness of the external unit - a place not good for ventilation - voltage measurement",
+    "solution": "Ensure that there are no clogs in the circuit - check the Freon charge - check the expansion valve - check the cable connecting the compressor and the electronic board - check the cleanliness of the outdoor unit and wash it if necessary - check the outdoor fan motor and verify the speeds - check the voltage - install a voltage stabilizer if necessary - ensure that the outdoor unit is in a place with adequate ventilation"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH61",
+    "check_text": "Condenser overheating protection (outdoor unit)",
+    "solution": "Check the cleanliness of the outdoor unit and wash it if it is dirty - Check the Freon charge - Make sure there are no clogs in the cooling circuit - Make sure the Freon valves are open - Check the fan motor of the outdoor unit and check the speeds"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH62",
+    "check_text": "Condenser overheating protection (outdoor unit)",
+    "solution": "Check the cleanliness of the outdoor unit and wash it if it is dirty - Check the Freon charge - Make sure there are no clogs in the cooling circuit - Make sure the Freon valves are open - Check the fan motor of the outdoor unit and check the speeds"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH67",
+    "check_text": "Malfunction in the fan motor of the outdoor unit",
+    "solution": "Check the fan motor for the outdoor unit - replace it if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "Ch53",
+    "check_text": "Error in connection between the two units",
+    "solution": "Check the cable connecting the two units"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH93",
+    "check_text": "Error in connection between the two units",
+    "solution": "Check the cable connecting the two units"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH01",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Replace the air sensor of the indoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH02",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Replacing the cooling coil sensor (evaporator)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH03",
+    "check_text": "Display screen malfunction",
+    "solution": "Replace the display screen"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH09",
+    "check_text": "A malfunction in the identification card in the electronic board in the external unit",
+    "solution": "Replacing the identification card (it is a small card integrated with the electronic board)"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH38",
+    "check_text": "Freon gas leak",
+    "solution": "Review and repair the leakage - adjust the Freon charge"
+  },
+  {
+    "category": "Inverter",
+    "brand": "LG",
+    "lang": "en",
+    "fault_name": "CH36",
+    "check_text": "Freon gas leak",
+    "solution": "Review and repair the leakage - adjust the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "E0",
+    "check_text": "Malfunction in the electronic board",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Error in connection between the two units",
+    "solution": "Check the cable connecting the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Malfunction in the air temperature sensor in the indoor unit",
+    "solution": "Replace the air temperature sensor in the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Overload on the compressor",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - ensuring that there is no blockage in the refrigeration circuit"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check the fan motor for the indoor unit - ensure that power is reaching the motor - replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "E7",
+    "check_text": "Compressor malfunction",
+    "solution": "Checking the compressor - checking the cable connecting the compressor and the electricity source - checking the capacitor and contactor - checking the high and low pressure sensor - checking the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "Eb",
+    "check_text": "Repeat protection from E6",
+    "solution": "See fault E6"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "L1",
+    "check_text": "Low voltage protection",
+    "solution": "Check the electricity source - check the voltage - install a voltage stabilizer if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "L2",
+    "check_text": "Overvoltage protection",
+    "solution": "Check the electricity source - check the voltage - install a voltage stabilizer if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "L8",
+    "check_text": "Hertz fluctuation protection",
+    "solution": "Check the electricity source"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "L9",
+    "check_text": "Hertz fluctuation protection",
+    "solution": "Check the electricity source"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "P1",
+    "check_text": "High pressure protection",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "P2",
+    "check_text": "Low pressure protection",
+    "solution": "Checking the Freon charge - checking the cleanliness of the internal unit and washing it if necessary - checking the internal fan motor and checking the speeds - making sure there is no blockage in the cooling circuit - checking the low pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "P3",
+    "check_text": "Compressor malfunction",
+    "solution": "Checking the compressor - checking the cable connecting the compressor and the electricity source - checking the capacitor and contactor - checking the high and low pressure sensor - checking the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "P5",
+    "check_text": "Malfunction in the condenser coil sensor of the outdoor unit",
+    "solution": "Replace the condenser coil sensor in the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "P6",
+    "check_text": "Cycle inverter malfunction (in heating mode)",
+    "solution": "Checking the reversing valve - ensuring that electricity is reaching the reversing valve - checking the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "trane",
+    "lang": "en",
+    "fault_name": "P7",
+    "check_text": "The temperature of the evaporator (indoor unit) is high",
+    "solution": "Checking the Freon charge - ensuring that there is no blockage in the cooling circuit - checking the diffusion device - checking the compressor - checking the cooling coil (evaporator) sensor."
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "F0",
+    "check_text": "A malfunction led to the air conditioning stopping",
+    "solution": "Freon leak - plugged into the refrigeration circuit - evaporator sensor - condenser sensor - the external unit is not clean - the electricity is weak"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "F1",
+    "check_text": "Malfunction of the air sensor in the indoor unit",
+    "solution": "Replace the air sensor of the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Cooling coil (evaporator) sensor malfunction",
+    "solution": "Check or replace the cooling coil (evaporator) sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "F3",
+    "check_text": "Malfunction of the temperature sensor or condenser coil sensor of the outdoor unit",
+    "solution": "Check or replace the temperature sensor of the outdoor unit - Check or replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "F5",
+    "check_text": "Malfunction of the temperature sensor or condenser coil sensor of the outdoor unit",
+    "solution": "Check or replace the temperature sensor of the outdoor unit - Check or replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "F4",
+    "check_text": "Malfunction in the condenser coil sensor in the outdoor unit",
+    "solution": "Check or replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "High pressure protection",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Evaporator freeze protection",
+    "solution": "Checking the Freon charge - checking the cleanliness of the internal unit and washing it if necessary - checking the internal fan motor and checking the speeds - making sure there is no blockage in the cooling circuit - checking the low pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Low pressure protection",
+    "solution": "Checking the Freon charge - checking the cleanliness of the internal unit and washing it if necessary - checking the internal fan motor and checking the speeds - making sure there is no blockage in the cooling circuit - checking the low pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Protecting the Freon expulsion temperature of the compressor",
+    "solution": "Check the cleanliness of the outdoor unit and wash it if it is dirty - Check the Freon charge - Make sure there are no clogs in the cooling circuit - Make sure the Freon valves are open - Check the fan motor of the outdoor unit and check the speeds"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Inspecting the electronic board and checking the fuse - repairing or replacing the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "Malfunction in the connection between the indoor unit and the outdoor unit",
+    "solution": "Check the connection cable between the two units - ensure the correct connection"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "C5",
+    "check_text": "A malfunction in the panel receiving the signal from the remote or the location of the control connections to the internal unit",
+    "solution": "Check the connection between the two units - check the signal receiving board from the remote and replace it if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "H6",
+    "check_text": "Malfunction of the fan motor of the indoor unit",
+    "solution": "Check the fan motor of the indoor unit - replace the fan motor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "U8",
+    "check_text": "Malfunction of the fan motor of the indoor unit",
+    "solution": "Check the fan motor of the indoor unit - replace the fan motor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "H3",
+    "check_text": "Malfunction of the outdoor unit fan motor - compressor overload",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the cooling circuit - checking the fan motor and replacing it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "EC",
+    "check_text": "Freon gas leak",
+    "solution": "Discovering the location of the Freon leak and repairing it - controlling the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "Fresh",
+    "lang": "en",
+    "fault_name": "E.H",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check the fan motor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "C1",
+    "check_text": "Malfunction in the air temperature sensor in the indoor unit",
+    "solution": "Check or replace the air temperature sensor in the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "C3",
+    "check_text": "Malfunction in the condenser coil sensor in the outdoor unit",
+    "solution": "Check or replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "C4",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Check or replace the cooling coil (evaporator) sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "C5",
+    "check_text": "Malfunction in the connection between the two units",
+    "solution": "Check the connection cable between the two units - ensure the correct connection"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "C6",
+    "check_text": "Protection for low or high voltage",
+    "solution": "Check the electricity source and check the voltage - install a voltage stabilizer if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "C7",
+    "check_text": "Protection of amperage surge beyond the normal limit",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "C8",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check or replace the indoor unit fan motor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "C9",
+    "check_text": "Malfunction in the outdoor unit fan motor",
+    "solution": "Check the fan motor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "CA",
+    "check_text": "Malfunction in the high pressure sensor",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "CC",
+    "check_text": "Malfunction in the electronic board in the indoor unit",
+    "solution": "Repair or replace the electronic board (depending on the device model)"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "H1",
+    "check_text": "High temperature of the air surrounding the outdoor unit",
+    "solution": "Turn off the device for 5 minutes and turn it on - if the malfunction persists-make sure the external unit is clean and wash it if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "H01",
+    "check_text": "Malfunction in the air temperature sensor in the indoor unit",
+    "solution": "Check or replace the air temperature sensor in the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "CH1",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Check or replace the cooling coil (evaporator) sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "argalic",
+    "lang": "en",
+    "fault_name": "CH0",
+    "check_text": "Malfunction in the air temperature sensor in the indoor unit",
+    "solution": "Check or replace the air temperature sensor in the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "E0",
+    "check_text": "Malfunction in the connection between the two units",
+    "solution": "Check the cable connecting the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "Malfunction in the air temperature sensor in the indoor unit",
+    "solution": "Check or replace the air temperature sensor in the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Check or replace the cooling coil (evaporator) sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Malfunction in the condenser coil sensor in the outdoor unit",
+    "solution": "Check or replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Freon leak",
+    "solution": "Discovering the location of the Freon leak and repairing it - controlling the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Malfunction in the connection between the two units",
+    "solution": "Check the cable connecting the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check or replace the indoor unit fan motor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "E7",
+    "check_text": "Malfunction in the condenser coil sensor in the outdoor unit",
+    "solution": "Check or replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "E9",
+    "check_text": "Compressor malfunction",
+    "solution": "Checking the compressor - checking the condenser - checking the voltage - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "EA",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Inspecting the electronic board and checking the fuse - repairing or replacing the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "EE",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Inspecting the electronic board and checking the fuse - repairing or replacing the electronic board"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "EF",
+    "check_text": "Malfunction in the outdoor unit fan motor",
+    "solution": "Check or replace the fan motor of the outdoor unit if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "P1",
+    "check_text": "High or low amperage protection",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "P2",
+    "check_text": "Protection of amperage surge beyond the normal limit",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "TCL",
+    "lang": "en",
+    "fault_name": "P0",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Inspecting the electronic board and checking the fuse - repairing or replacing the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "High gas pressure protection",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Freon leak",
+    "solution": "Discovering the location of the Freon leak and repairing it - controlling the Freon charge"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Pressure surge protection in the compressor body",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "Error in connection between the two units",
+    "solution": "Check the cable connecting the two units"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E8",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check or replace the indoor unit fan motor if it is damaged"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F1",
+    "check_text": "Malfunction in the air sensor or the cooling coil sensor (evaporator)",
+    "solution": "Check or replace the air temperature sensor in the indoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Malfunction in the condenser coil sensor or the air sensor of the outdoor unit",
+    "solution": "Check or replace the condenser sensor or the air sensor of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F4",
+    "check_text": "Protection of high Freon pressure in the ejection line",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "EE",
+    "check_text": "Malfunction in the electronic board of the outdoor unit",
+    "solution": "Check or repair or replace the electronic board of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "H4",
+    "check_text": "Overload on the compressor",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - ensuring that there is no blockage in the refrigeration circuit"
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Malfunction in the air temperature sensor in the indoor unit",
+    "solution": "Check or replace the air temperature sensor in the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Check or replace the cooling coil (evaporator) sensor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Freon leak - air conditioner dirty (indoor and outdoor unit)",
+    "solution": "Discovering the location of the Freon leak and repairing it - controlling the Freon charge - checking the cleanliness of the external unit and washing it if necessary - checking the cleanliness of the internal unit and washing it if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E5",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check or replace the indoor unit fan motor if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E7",
+    "check_text": "Electricity fluctuation protection",
+    "solution": "Check the power supply - turn off the device and turn it on after 5 minutes - check the air conditioner switch"
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E8",
+    "check_text": "High temperature of the indoor unit (evaporator)",
+    "solution": "Checking the Freon charge - ensuring that there is no blockage in the cooling circuit - checking the diffusion device - checking the compressor - checking the cooling coil (evaporator) sensor."
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "DF",
+    "check_text": "Ice formation on the evaporator (indoor unit)",
+    "solution": "If the symbol appears repeatedly - wash the filters and the indoor unit well - dry the indoor unit well before operating - review and adjust the Freon charge - review the indoor unit motor - and replace it if it is slow in movement"
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E9",
+    "check_text": "Temperature sensor protection of indoor unit",
+    "solution": "Checking the Freon charge - ensuring that there is no blockage in the cooling circuit - checking the diffusion device - checking the compressor - checking the cooling coil (evaporator) sensor."
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E10",
+    "check_text": "High Freon pressure",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E11",
+    "check_text": "Low Freon pressure",
+    "solution": "Checking the Freon charge - checking the cleanliness of the internal unit and washing it if necessary - checking the internal fan motor and checking the speeds - making sure there is no blockage in the cooling circuit - checking the low pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "General",
+    "lang": "en",
+    "fault_name": "E12",
+    "check_text": "Error in connection between the two units",
+    "solution": "Check the cable connecting the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E1",
+    "check_text": "High voltage of electricity",
+    "solution": "Check the electricity source - check the air conditioner operating switch - install a voltage stabilizer if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E2",
+    "check_text": "Ice formation on the evaporator (indoor unit)",
+    "solution": "If the symbol appears repeatedly - wash the filters and the indoor unit well - dry the indoor unit well before operating - review and adjust the Freon charge - review the indoor unit motor - and replace it if it is slow in movement"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E3",
+    "check_text": "Freon leak",
+    "solution": "blockage in the cooling circuit or low voltage -Discovering the location of the Freon leak - adjusting the Freon charge - ensuring that there are no clogs in the refrigeration circuit - checking the electricity source - checking the operating switch for the air conditioner - installing a voltage stabilizer if necessary"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E4",
+    "check_text": "Protection against high Freon pressure",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - making sure there is no blockage in the refrigeration circuit - checking the high pressure sensor"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E6",
+    "check_text": "Error in connection between the two units",
+    "solution": "Check the cable connecting the two units"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E9",
+    "check_text": "Protecting the level of waste water above the normal limit",
+    "solution": "Check the water drainage of the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "E8",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check or replace the indoor unit fan motor and replace it if it is damaged"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "EE",
+    "check_text": "Malfunction in the electronic board in the external unit",
+    "solution": "Check or repair or replace the electronic board of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F0",
+    "check_text": "Malfunction in the air temperature sensor in the indoor unit",
+    "solution": "Check or replace the air temperature sensor in the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F1",
+    "check_text": "Malfunction in the cooling coil sensor (evaporator)",
+    "solution": "Check and replace the cooling coil (evaporator) sensor for the indoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F2",
+    "check_text": "Malfunction in the condenser coil sensor in the outdoor unit",
+    "solution": "Check or replace the condenser coil sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F3",
+    "check_text": "Malfunction in the temperature sensor in the outdoor unit",
+    "solution": "Check or replace the temperature sensor of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F4",
+    "check_text": "High pressure temperature rise malfunction in the ejection line",
+    "solution": "Check the cleanliness of the outdoor unit and wash it if it is dirty - Check the Freon charge - Make sure there are no clogs in the cooling circuit - Make sure the Freon valves are open - Check the fan motor of the outdoor unit and check the speeds"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F5",
+    "check_text": "Malfunction in the system temperature sensor",
+    "solution": "Check the cleanliness of the outdoor unit and wash it if it is dirty - Check the Freon charge - Make sure there are no clogs in the cooling circuit - Make sure the Freon valves are open - Check the fan motor of the outdoor unit and check the speeds"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F6",
+    "check_text": "Malfunction: Overheating of the outdoor unit",
+    "solution": "Check the cleanliness of the outdoor unit and wash it if it is dirty - Check the Freon charge - Make sure there are no clogs in the cooling circuit - Make sure the Freon valves are open - Check the fan motor of the outdoor unit and check the speeds"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F7",
+    "check_text": "Protecting the presence of oil in the refrigeration circuit",
+    "solution": "Cleaning the refrigeration circuit with nitrogen + Freon 11 to extract all the oil - Adding oil to the compressor (estimating the amount of lost oil) - Adjusting the Freon charge"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "FF",
+    "check_text": "Electrical fluctuation malfunction",
+    "solution": "Check the electricity source + power switch"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "F.H",
+    "check_text": "Ice formation on the evaporator (indoor unit)",
+    "solution": "If the symbol appears repeatedly - wash the filters and the indoor unit well - dry the indoor unit well before operating - review and adjust the Freon charge - review the indoor unit motor - and replace it if it is slow in movement"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "H3",
+    "check_text": "Overload on the compressor",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - ensuring that there is no blockage in the refrigeration circuit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "H4",
+    "check_text": "Overload on the compressor",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - ensuring that there is no blockage in the refrigeration circuit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "H7",
+    "check_text": "Overload on the compressor",
+    "solution": "Checking the Freon charge - checking the cleanliness of the outdoor unit (and washing it if necessary) - checking the fan motor of the outdoor unit - checking the capacitor and contactor - ensuring that there is no blockage in the refrigeration circuit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "H5",
+    "check_text": "Malfunction in the electronic board in the external unit",
+    "solution": "Check or replace the electronic board of the outdoor unit"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "HC",
+    "check_text": "Malfunction in the internal or external fan motor capster or compressor",
+    "solution": "Check all compressors for fans and compressors (it is recommended that they be replaced)"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "H6",
+    "check_text": "Malfunction in the indoor unit fan motor",
+    "solution": "Check or repair or replace the indoor unit fan motor"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "PF",
+    "check_text": "Malfunction in the electricity input sensor in the external or internal unit",
+    "solution": "Check the sensor - check the electricity source"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "LP",
+    "check_text": "The two units do not match",
+    "solution": "Inspect the two units and ensure conformity"
+  },
+  {
+    "category": "normal",
+    "brand": "gree",
+    "lang": "en",
+    "fault_name": "L1",
+    "check_text": "Malfunction in the humidity sensor in the indoor unit",
+    "solution": "Check or replace the humidity sensor of the indoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)1--9",
+    "check_text": "Malfunction of the fan motor of the indoor unit",
+    "solution": "Check or repair or replace the indoor unit fan motor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)4 -- 5",
+    "check_text": "Malfunction in the air sensor of the indoor unit",
+    "solution": "Check or replace the air sensor of the indoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)1 -- 26",
+    "check_text": "Malfunction in the air sensor or the cooling coil sensor (evaporator)",
+    "solution": "Check or replace the air sensor or the cooling coil (evaporator) sensor."
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 14",
+    "check_text": "Malfunction in the electronic board or control",
+    "solution": "Check the electronic board - check the connections - if the malfunction persists- please replace the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-) 4--9",
+    "check_text": "Malfunction in the air sensor in the indoor unit",
+    "solution": "Check or replace the air sensor of the indoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0--6",
+    "check_text": "Malfunction in the electronic board of the outdoor unit",
+    "solution": "Check the electronic board - check the connections - if the malfunction persists- please replace the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-) 1 -- 18",
+    "check_text": "Malfunction in the electronic board of the outdoor unit",
+    "solution": "Check the electronic board - check the connections - if the malfunction persists- please replace the electronic board"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 26",
+    "check_text": "Malfunction in the air sensor or the cooling coil sensor (evaporator)",
+    "solution": "Check or replace the cooling coil (evaporator) sensor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 1",
+    "check_text": "Malfunction in the air sensor or condenser coil sensor in the outdoor unit",
+    "solution": "Check or replace the air sensor or condenser coil sensor in the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-) 0 -- 2",
+    "check_text": "A malfunction in the air sensor or condenser coil sensor in the outdoor unit",
+    "solution": "a malfunction in the electronic board of the outdoor unit- a malfunction in the compressor- or a blockage in the refrigeration circuit.Check or replace the air sensor or condenser coil sensor in the outdoor unit - Check or repair or replace the electronic board of the outdoor unit - Check the compressor and its connections - Ensure that there is no blockage in the refrigeration circuit - Check the Freon charge"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0--9",
+    "check_text": "Malfunction in the air sensor or condenser coil sensor in the outdoor unit",
+    "solution": "Check or replace the air sensor or condenser sensor in the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-) 4 -- 5",
+    "check_text": "Malfunction in the air sensor or condenser coil sensor in the outdoor unit",
+    "solution": "Check or replace the air sensor or condenser sensor in the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 19",
+    "check_text": "Malfunction in the fan motor of the outdoor unit",
+    "solution": "Check or replace the outdoor unit fan motor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 11",
+    "check_text": "Malfunction in the fan motor of the outdoor unit",
+    "solution": "Check or replace the outdoor unit fan motor"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0--20",
+    "check_text": "Malfunction in the electronic board of the indoor unit",
+    "solution": "Check or repair or replace the electronic board of the indoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)5--6",
+    "check_text": "A malfunction in the electronic board of the external unit or a fault in the connection between the two units",
+    "solution": "Check or repair or replace the electronic board of the outdoor unit - Check the cable connecting the two units"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)1 -- 18",
+    "check_text": "Malfunction in the electronic board of the outdoor unit",
+    "solution": "Check or repair or replace the electronic board of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 7",
+    "check_text": "Malfunction in the electronic board of the outdoor unit",
+    "solution": "Check or repair or replace the electronic board of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0--10",
+    "check_text": "Malfunction in the electronic board of the outdoor unit",
+    "solution": "Check or repair or replace the electronic board of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 12",
+    "check_text": "Malfunction in the electronic board of the outdoor unit",
+    "solution": "Check or repair or replace the electronic board of the outdoor unit"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 14",
+    "check_text": "A malfunction in the electronic board of the external unit or a fault in the connection between the two units",
+    "solution": "Check or repair or replace the electronic board of the outdoor unit - Check the cable connecting the two units"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 13",
+    "check_text": "Compressor malfunction",
+    "solution": "Checking the compressor and its connections - ensuring that there is no blockage in the refrigeration circuit - ensuring that voltage is reaching the compressor from the electronic panel"
+  },
+  {
+    "category": "Inverter",
+    "brand": "Sharp",
+    "lang": "en",
+    "fault_name": "(-)0 -- 18",
+    "check_text": "An electrical fault or a fault in the connection between the two units",
+    "solution": "Check the electricity source - check the operating switch for the air conditioner - check the cable connected between the two units"
+  }
+]

@@ -1,0 +1,952 @@
+{
+    "شباك": {
+        "ar": {
+            "المكيف لا يبرد": {
+                "فحص": "فحص الكباستور - فحص الكومبريسور - فحص الثيرموستات - فحص الفريون",
+                "حل": "استبدال العنصر التالف - ضبط شحنة الفريون مع اصلاح التسريب"
+            },
+            "المكيف لا يبرد ويوجد ثلج على المبخر": {
+                "فحص": "فحص نظافة مبخر المكيف - فحص الثيرموستات - فحص الفريون - فحص دينمو المروحة",
+                "حل": "النظافة والغسيل بماكينة ضغط المياه - استبدال الثيرموستات - ضبط شحنة الفريون - تغيير الدينمو او استبدال (رولمان بلي)"
+            },
+            "المكيف يصدر صوت عالي ولا يبرد": {
+                "فحص": "فحص دينمو المروحة - فحص الكومبريسور",
+                "حل": "تغيير الدينمو او استبدال (رولمان بلي) - تغيير الكومبريسور"
+            },
+            "المكيف يصدر صوت عالي": {
+                "فحص": "فحص دينمو المروحة - فحص الكومبريسور",
+                "حل": "تغيير الدينمو او استبدال (رولمان بلي) - تغيير الكومبريسور"
+            },
+            "الهواء ضعيف": {
+                "فحص": "فحص دينمو المروحة - فحص ريشة المروحة - فحص كباستور المروحة - انسداد المبخر وفلتر الهواء بالأتربة",
+                "حل": "استبدال العنصر التالف - نظافة فلتر الهواء والمبخر بماكينة ضغط المياه"
+            },
+            "المكيف لا يعمل نهائيا": {
+                "فحص": "فحص مصدر التيار الكهربائي - فحص مفتاح التشغيل في المكيف",
+                "حل": "استبدال العنصر التالف"
+            },
+            "المكيف يستهلك كهرباء أكثر من المعتاد": {
+                "فحص": "استخدام درجة حرارة غير مناسبة أقل من 18°C بشكل دائم",
+                "حل": "ضبط درجة الحرارة على 23-25°C للحصول على تبريد جيد مع استهلاك أقل"
+            },
+            "المكيف يفصل بشكل متكرر": {
+                "فحص": "عطل في الثيرموستات - عطل في الكباستور - انسداد المكثف الخارجي بالأتربة والأوساخ",
+                "حل": "استبدال العنصر التالف - النظافة والغسيل بماكينة ضغط المياه"
+            },
+            "عدم خروج هواء ساخن في وضع التدفئة": {
+                "فحص": "عكس صمام التمدد الرباعي 4 way Valve - مشكلة في حساس التدفئة الخارجي - انسداد ملفات الكوندينسر الخارجي بالثلج",
+                "حل": "استبدال العنصر التالف"
+            },
+            "المكيف يفصل بسبب درجة الحرارة الخارجية المرتفعة جدًا": {
+                "فحص": "اتساخ ملفات المكثف بالأتربة - مشكلة المكيف من نوع (T1)",
+                "حل": "نظافة المكثف الخارجي - استبدال بمكيف (T3) وذلك لأنه مصمم للأجواء الحارة"
+            },
+            "المكيف يصدر صوت زنة": {
+                "فحص": "فحص الكباستور - فحص دينمو المروحة - فحص الكومبريسور",
+                "حل": "استبدال الجزء التالف"
+            },
+            "المكيف يسحب امبير عالي ويفصل": {
+                "فحص": "فحص الكومبريسور - فحص الكباستور",
+                "حل": "استبدال الجزء التالف"
+            },
+            "وجود اثار زيت على المكيف": {
+                "فحص": "تسريب فريون",
+                "حل": "اصلاح التسريب + ضبط شحنة الفريون"
+            },
+            "مروحة المكيف تشتغل وبعد ساعات تتوقف عن العمل": {
+                "فحص": "فحص دينمو المروحة - فحص الملفات الداخلية للدينمو",
+                "حل": "استبداله او إصلاحه"
+            }
+        },
+        "en": {
+            "The AC does not cool": {
+                "Check": "Check the capacitor - Check the compressor - Check the thermostat - Check the refrigerant",
+                "Solution": "Replace the faulty component - Adjust the refrigerant charge and fix the leak"
+            },
+            "The AC does not cool and there is ice on the evaporator": {
+                "Check": "Check the cleanliness of the AC evaporator - Check the thermostat - Check the refrigerant - Check the fan motor",
+                "Solution": "Clean and wash with a pressure washer - Replace the thermostat - Adjust the refrigerant charge - Replace the fan motor or replace the bearing (ball bearing)"
+            },
+            "The AC makes a loud noise and does not cool": {
+                "Check": "Check the fan motor - Check the compressor",
+                "Solution": "Replace the fan motor or replace the bearing (ball bearing) - Replace the compressor"
+            },
+            "The AC makes a loud noise": {
+                "Check": "Check the fan motor - Check the compressor",
+                "Solution": "Replace the fan motor or replace the bearing (ball bearing) - Replace the compressor"
+            },
+            "Weak airflow": {
+                "Check": "Check the fan motor - Check the fan blade - Check the fan capacitor - Blockage in the evaporator and air filter due to dust",
+                "Solution": "Replace the faulty component - Clean the air filter and evaporator with a pressure washer"
+            },
+            "The AC does not work at all": {
+                "Check": "Check the power source - Check the power switch on the AC",
+                "Solution": "Replace the faulty component"
+            },
+            "The AC consumes more electricity than usual": {
+                "Check": "Using an unsuitable temperature below 18°C continuously",
+                "Solution": "Set the temperature to 23-25°C for good cooling with lower consumption"
+            },
+            "The AC shuts off frequently": {
+                "Check": "Faulty thermostat - Faulty capacitor - Blockage in the outdoor condenser due to dust and dirt",
+                "Solution": "Replace the faulty component - Clean and wash with a pressure washer"
+            },
+            "No hot air comes out in heating mode": {
+                "Check": "Reversal of the 4-way expansion valve - Issue with the outdoor heating sensor - Blockage in the outdoor condenser coils with ice",
+                "Solution": "Replace the faulty component"
+            },
+            "The AC shuts off due to extremely high outdoor temperature": {
+                "Check": "Dirty condenser coils due to dust - The AC is of type (T1)",
+                "Solution": "Clean the outdoor condenser - Replace with a (T3) AC, as it is designed for hot climates"
+            },
+            "The AC produces a buzzing sound": {
+                "Check": "Check the capacitor - Check the fan motor - Check the compressor",
+                "Solution": "Replace the faulty component"
+            },
+            "The AC draws high amperage and shuts off": {
+                "Check": "Check the compressor - Check the capacitor",
+                "Solution": "Replace the faulty component"
+            },
+            "Oil traces on the AC": {
+                "Check": "Refrigerant leak",
+                "Solution": "Fix the leak + adjust the refrigerant charge"
+            },
+            "The AC fan runs but stops after a few hours": {
+                "Check": "Check the fan motor - Check the internal windings of the motor",
+                "Solution": "Replace or repair it"
+            }
+        }
+    },
+    "سبليت": {
+        "ar": {
+            "المكيف لا يبرد": {
+                "فحص": "فحص الكباستور - فحص الكومبريسور - فحص الفريون - فحص دينمو المروحة الخارجية",
+                "حل": "استبدال العنصر التالف - ضبط شحنة الفريون مع اصلاح التسريب - تغيير الدينمو"
+            },
+            "المكيف لا يبرد ويوجد ثلج على المبخر": {
+                "فحص": "فحص نظافة المكيف - فحص الفريون - فحص دينمو مروحة الوحدة الداخلية",
+                "حل": "النظافة + نظافة الفلاتر - ضبط شحنة الفريون - تغيير الدينمو"
+            },
+            "المكيف يصدر صوت عالي في الوحدة الداخلية": {
+                "فحص": "فحص مروحة الوحدة الداخلية - إعادة تثبيت البراغي والاجزاء الداخلية",
+                "حل": "استبدال الجزء التالف"
+            },
+            "الهواء ضعيف": {
+                "فحص": "فحص دينمو مروحة الوحدة الداخلية - فحص مروحة الوحدة الداخلية - فحص كباستور دينمو الوحدة الداخلية - انسداد فلتر الهواء بالأتربة",
+                "حل": "استبدال العنصر التالف - نظافة فلتر الهواء"
+            },
+            "المكيف لا يعمل نهائيا": {
+                "فحص": "فحص مصدر التيار الكهربائي - فحص اللوحة الالكترونية في الوحدة الداخلية",
+                "حل": "استبدال العنصر التالف"
+            },
+            "تسرب المياه من الوحدة الداخلية": {
+                "فحص": "انسداد مجرى تصريف الماء - كسر في حوض تجميع الماء - تكون ثلج على المبخر بسبب نقص الفريون أو ضعف دينمو مروحة الوحدة الداخلية",
+                "حل": "نظافة مجرى تصريف الماء - استبدال او اصلاح الحوض - ضبط الشحنة - استبدال الدينمو"
+            },
+            "المكيف يستهلك كهرباء أكثر من المعتاد": {
+                "فحص": "استخدام درجة حرارة غير مناسبة أقل من 18°C بشكل دائم",
+                "حل": "ضبط درجة الحرارة على 23-25°C للحصول على تبريد جيد مع استهلاك أقل"
+            },
+            "المكيف لا يستجيب للريموت": {
+                "فحص": "تعطل مستقبل الإشارة في الكارتة - تعطل الريموت",
+                "حل": "استبدال العنصر التالف"
+            },
+            "اختلاف كبير بين حرارة الريموت ودرجة التبريد الفعلية": {
+                "فحص": "حساس الحرارة تالف أو غير مثبت جيدًا - مكان تركيب الوحدة الداخلية يتأثر بمصادر حرارة خارجية مثل الشمس أو المطبخ",
+                "حل": "استبدال العنصر التالف - تغيير مكان التركيب"
+            },
+            "المكيف يفصل بشكل متكرر": {
+                "فحص": "حساس الحرارة معطل - عطل في اللوحة الاكترونية - شحنة الفريون ضعيفة - عطل في الكباستور",
+                "حل": "استبدال العنصر التالف - ضبط الشحنة مع معالجة تسريب الفريون"
+            },
+            "عدم خروج هواء ساخن في وضع التدفئة": {
+                "فحص": "عكس صمام التمدد الرباعي 4 way Valve - مشكلة في حساس التدفئة الخارجي - انسداد ملفات الوحدة الخارجية بالثلج",
+                "حل": "استبدال العنصر التالف"
+            },
+            "الكمبرسور يعمل لكن لا يوجد تبريد": {
+                "فحص": "عطل في الكابلري - انسداد في دورة الفريون - ضعف في ملفات الكمبرسور الداخلية",
+                "حل": "استبدال العنصر التالف - نظافة الدائرة الانضغاطية بالنيتروجين + فريون 11"
+            },
+            "المكيف يفصل عشوائيًا ويعيد التشغيل تلقائيًا": {
+                "فحص": "مشكلة في الحساسات الداخلية أو الخارجية - عطل في اللوحة الاكترونية",
+                "حل": "استبدال الجزء التالف"
+            },
+            "المروحة الداخلية تعمل لكن الكمبرسور لا يعمل": {
+                "فحص": "عطل في الكباستور - عطل الكونتاكتور - عطل في الكومبريسور",
+                "حل": "استبدال العنصر التالف"
+            },
+            "المكيف يشتغل وبعد 5 دقائق يفصل القاطع الكهربائي": {
+                "فحص": "عطل في اللوحة الالكترونية - عطل في الكومبريسور - قاطع كهربائي غير مناسب لسعة المكيف او انه قد تعطل",
+                "حل": "استبدال الجزء التالف"
+            },
+            "المكيف يفصل بسبب درجة الحرارة الخارجية المرتفعة جدًا": {
+                "فحص": "ضعف تدفق الهواء حول الوحدة الخارجية - اتساخ ملفات المكثف بالأتربة",
+                "حل": "تركيب الوحدة الخارجية في مكان تهوية جيدة - نظافة المكثف الخارجي"
+            },
+            "المكيف يعمل لكن لا يمكن تغييره من البارد إلى الساخن": {
+                "فحص": "تلف صمام التبديل بين التبريد والتدفئة - عطل في اللوحة الالكترونية",
+                "حل": "تغيير الجزء التالف"
+            },
+            "يوجد ثلج على ماسورة النحاس الصغيرة": {
+                "فحص": "شحنة الفريون غير مضبوطة",
+                "حل": "ضبط شحنة الفريون"
+            },
+            "يوجد ثلج على ماسورة النحاس الكبيرة": {
+                "فحص": "شحنة الفريون غير مضبوطة - تراكم الأوساخ على المبخر (الوحدة الداخلية) والفلاتر - دينمو الوحدة الداخلية لا يعمل او يعمل ببطء",
+                "حل": "ضبط شحنة الفريون - غسيل ونظافة الوحدة الداخلية عن طريق ماكينة الضغط - استبدال دينمو الوحدة الداخلية"
+            },
+            "الكومبريسور لا يعمل والمراوح تعمل": {
+                "فحص": "فحص الكومبريسور - فحص الاوفرلود الخارجي للكومبريسور",
+                "حل": "استبدال الجزء التالف"
+            },
+            "المكيف يصدر صوت زنة": {
+                "فحص": "فحص الكباستور - فحص الكومبريسور",
+                "حل": "استبدال الجزء التالف"
+            },
+            "وجود اثار زيت على الوحدة الخارجية او الداخلية": {
+                "فحص": "تسريب فريون",
+                "حل": "اصلاح التسريب + ضبط شحنة الفريون"
+            },
+            "المكيف ضعيف في التبريد ولايوجد ثلج على المبخر": {
+                "فحص": "فحص مروحة الوحدة الداخلية - فحص نظافة المبخر والمروحة للوحدة الداخلية - فحص شحنة الفريون - فحص أداء الكومبريسور (الطرد والسحب) - تراكم زيت الكومبريسور داخل المبخر",
+                "حل": "استبدال الجزء التالف - نظافة الدائرة الانضغاطية (نيتروجين + فريون 11) + استبدال فلتر الفريون"
+            },
+            "لاتوجد اشارة نهائيا على الوحدة الخارجية (لا تعمل)": {
+                "فحص": "عطل في اللوحة الالكترونية - خطأ في التوصيل بين الوحدة الخارجية والوحدة الداخلية",
+                "حل": "استبدال الجزء التالف - مراجعة التوصيلات"
+            },
+            "المكيف يسحب امبير عالي ويفصل": {
+                "فحص": "فحص الكومبريسور - فحص الكباستور",
+                "حل": "استبدال الجزء التالف"
+            }
+        },
+        "en": {
+            "The AC does not cool": {
+                "Check": "Check the capacitor - Check the compressor - Check the refrigerant - Check the outdoor unit fan motor",
+                "Solution": "Replace the faulty component - Adjust the refrigerant charge and fix the leak - Replace the fan motor"
+            },
+            "The AC does not cool and there is ice on the evaporator": {
+                "Check": "Check the cleanliness of the AC - Check the refrigerant - Check the indoor unit fan motor",
+                "Solution": "Clean + clean the filters - Adjust the refrigerant charge - Replace the fan motor"
+            },
+            "The AC makes a loud noise in the indoor unit": {
+                "Check": "Check the indoor unit fan - Re-tighten the screws and internal parts",
+                "Solution": "Replace the faulty component"
+            },
+            "Weak airflow": {
+                "Check": "Check the indoor unit fan motor - Check the indoor unit fan - Check the indoor unit fan capacitor - Blockage in the air filter due to dust",
+                "Solution": "Replace the faulty component - Clean the air filter"
+            },
+            "The AC does not work at all": {
+                "Check": "Check the power source - Check the electronic board in the indoor unit",
+                "Solution": "Replace the faulty component"
+            },
+            "Water leakage from the indoor unit": {
+                "Check": "Blockage in the drain line - Crack in the water collection tray - Ice formation on the evaporator due to low refrigerant or weak indoor unit fan motor",
+                "Solution": "Clean the drain line - Replace or repair the tray - Adjust the refrigerant charge - Replace the fan motor"
+            },
+            "The AC consumes more electricity than usual": {
+                "Check": "Using an unsuitable temperature below 18°C continuously",
+                "Solution": "Set the temperature to 23-25°C for good cooling with lower consumption"
+            },
+            "The AC does not respond to the remote": {
+                "Check": "Faulty signal receiver in the control board - Faulty remote",
+                "Solution": "Replace the faulty component"
+            },
+            "Large difference between the remote temperature and actual cooling": {
+                "Check": "Damaged or poorly installed temperature sensor - Indoor unit installation location affected by external heat sources like sunlight or the kitchen",
+                "Solution": "Replace the faulty component - Change the installation location"
+            },
+            "The AC shuts off frequently": {
+                "Check": "Faulty temperature sensor - Faulty electronic board - Low refrigerant charge - Faulty capacitor",
+                "Solution": "Replace the faulty component - Adjust the refrigerant charge and address the leak"
+            },
+            "No hot air comes out in heating mode": {
+                "Check": "Reversal of the 4-way expansion valve - Issue with the outdoor heating sensor - Blockage in the outdoor unit coils with ice",
+                "Solution": "Replace the faulty component"
+            },
+            "The compressor runs but there is no cooling": {
+                "Check": "Faulty capillary tube - Blockage in the refrigerant circuit - Weakness in the compressor’s internal coils",
+                "Solution": "Replace the faulty component - Clean the refrigeration circuit with nitrogen + Freon 11"
+            },
+            "The AC shuts off randomly and restarts automatically": {
+                "Check": "Issue with the internal or external sensors - Faulty electronic board",
+                "Solution": "Replace the faulty component"
+            },
+            "The indoor fan works but the compressor does not": {
+                "Check": "Faulty capacitor - Faulty contactor - Faulty compressor",
+                "Solution": "Replace the faulty component"
+            },
+            "The AC runs and after 5 minutes the circuit breaker trips": {
+                "Check": "Faulty electronic board - Faulty compressor - Circuit breaker unsuitable for the AC capacity or faulty",
+                "Solution": "Replace the faulty component"
+            },
+            "The AC shuts off due to extremely high outdoor temperature": {
+                "Check": "Poor airflow around the outdoor unit - Dirty condenser coils due to dust",
+                "Solution": "Install the outdoor unit in a well-ventilated location - Clean the outdoor condenser"
+            },
+            "The AC works but cannot switch from cooling to heating": {
+                "Check": "Damaged cooling/heating switching valve - Faulty electronic board",
+                "Solution": "Replace the faulty component"
+            },
+            "Ice on the small copper pipe": {
+                "Check": "Improper refrigerant charge",
+                "Solution": "Adjust the refrigerant charge"
+            },
+            "Ice on the large copper pipe": {
+                "Check": "Improper refrigerant charge - Dust buildup on the evaporator (indoor unit) and filters - Indoor unit fan motor not working or running slowly",
+                "Solution": "Adjust the refrigerant charge - Clean and wash the indoor unit with a pressure washer - Replace the indoor unit fan motor"
+            },
+            "The compressor does not work while the fans do": {
+                "Check": "Check the compressor - Check the outdoor compressor overload protector",
+                "Solution": "Replace the faulty component"
+            },
+            "The AC produces a buzzing sound": {
+                "Check": "Check the capacitor - Check the compressor",
+                "Solution": "Replace the faulty component"
+            },
+            "Oil traces on the outdoor or indoor unit": {
+                "Check": "Refrigerant leak",
+                "Solution": "Fix the leak + adjust the refrigerant charge"
+            },
+            "The AC is weak in cooling with no ice on the evaporator": {
+                "Check": "Check the indoor unit fan - Check the cleanliness of the evaporator and indoor unit fan - Check the refrigerant charge - Check the compressor performance (suction and discharge) - Oil buildup from the compressor inside the evaporator",
+                "Solution": "Replace the faulty component - Clean the refrigeration circuit (nitrogen + Freon 11) + replace the refrigerant filter"
+            },
+            "No signal at all on the outdoor unit (not working)": {
+                "Check": "Faulty electronic board - Wiring error between the outdoor and indoor units",
+                "Solution": "Replace the faulty component - Review the connections"
+            },
+            "The AC draws high amperage and shuts off": {
+                "Check": "Check the compressor - Check the capacitor",
+                "Solution": "Replace the faulty component"
+            }
+        }
+    },
+    "مخفي": {
+        "ar": {
+            "تسرب المياه من الوحدة الداخلية": {
+                "فحص": "انسداد مجرى تصريف الماء - كسر في حوض تجميع الماء - تكون ثلج على المبخر بسبب نقص الفريون أو ضعف دينمو مروحة الوحدة الداخلية - عطل في طلمبة دفع المياه من الحوض (بعض الموديلات)",
+                "حل": "نظافة مجرى تصريف الماء - استبدال أو إصلاح الحوض - ضبط الشحنة - استبدال الدينمو"
+            },
+            "الهواء ضعيف": {
+                "فحص": "فحص دينمو مروحة الوحدة الداخلية - فحص مروحة الوحدة الداخلية - فحص كباستور دينمو الوحدة الداخلية - انسداد فلتر الهواء بالأتربة",
+                "حل": "استبدال العنصر التالف - نظافة فلتر الهواء"
+            },
+            "المكيف لا يعمل نهائيًا": {
+                "فحص": "فحص مصدر التيار الكهربائي - فحص اللوحة الإلكترونية في الوحدة الداخلية",
+                "حل": "استبدال العنصر التالف"
+            },
+            "المروحة الداخلية تعمل لكن الكمبريسور لا يعمل": {
+                "فحص": "عطل في الكباستور - عطل الكونتاكتور - عطل في الكومبريسور",
+                "حل": "استبدال العنصر التالف"
+            },
+            "المكيف لا يبرد": {
+                "فحص": "فحص الكباستور - فحص الكومبريسور - فحص الفريون - فحص دينمو المروحة الخارجية",
+                "حل": "استبدال العنصر التالف - ضبط شحنة الفريون مع إصلاح التسريب - تغيير الدينمو"
+            },
+            "المكيف يصدر صوت عالي في الوحدة الداخلية": {
+                "فحص": "فحص مروحة الوحدة الداخلية - إعادة تثبيت البراغي والأجزاء الداخلية",
+                "حل": "استبدال الجزء التالف"
+            },
+            "الكومبريسور يعمل لمدة 10 ثواني ويفصل": {
+                "فحص": "فحص مقاومة الكومبريسور - فحص بلف الضغط العالي - فحص بلف الضغط المنخفض - فحص شحنة الفريون",
+                "حل": "استبدال الجزء التالف - ضبط شحنة الفريون"
+            },
+            "الكومبريسور لا يعمل مع وجود إشارة في الكونتاكتور": {
+                "فحص": "عطل في كونتاكتر التشغيل",
+                "حل": "تغيير كونتاكتور التشغيل"
+            },
+            "المراوح لا تعمل": {
+                "فحص": "فحص كونتاكتر التشغيل - فحص كباستور المراوح - فحص المراوح",
+                "حل": "تغيير الجزء التالف"
+            },
+            "الكومبريسور يعمل ولا يتوقف": {
+                "فحص": "عطل في اللوحة الإلكترونية - عطل في حساس الهواء - عطل في حساس الفريون",
+                "حل": "استبدال الجزء التالف"
+            },
+            "يوجد ثلج على ماسورة النحاس الصغيرة": {
+                "فحص": "شحنة الفريون غير مضبوطة",
+                "حل": "ضبط شحنة الفريون"
+            },
+            "يوجد ثلج على ماسورة النحاس الكبيرة": {
+                "فحص": "شحنة الفريون غير مضبوطة - تراكم الأوساخ على المبخر (الوحدة الداخلية) والفلاتر",
+                "حل": "ضبط شحنة الفريون - غسيل ونظافة الوحدة الداخلية عن طريق ماكينة الضغط"
+            },
+            "لا توجد إشارة نهائيًا على الوحدة الخارجية (لا تعمل)": {
+                "فحص": "عطل في اللوحة الإلكترونية - خطأ في التوصيل بين الوحدة الخارجية والوحدة الداخلية",
+                "حل": "استبدال الجزء التالف - مراجعة التوصيلات"
+            },
+            "الكومبريسور يصدر صوت عالي وتبريده ممتاز": {
+                "فحص": "انخفاض الزيت داخل محرك الكومبريسور",
+                "حل": "ضبط كمية الزيت أو استبدال الكومبريسور (لأنه لن يعمل لفترة طويلة)"
+            },
+            "الكومبريسور يعمل وشحنة الفريون مضبوطة ولكن لا يوجد تبريد": {
+                "فحص": "تراكم الزيت داخل الوحدة الداخلية - الكومبريسور لا يضغط بالشكل المطلوب - عطل في الكابلري",
+                "حل": "نظافة كامل الدائرة الإنضغاطية (نيتروجين + فريون 11) - استبدال الكومبريسور - استبدال الكابلري"
+            },
+            "أمبير المكيف عالي وحرارة الكومبريسور عالية": {
+                "فحص": "سدد في الدائرة الإنضغاطية - انخفاض الزيت في الكومبريسور - زيادة شحنة الفريون",
+                "حل": "نظافة الدائرة الإنضغاطية (نيتروجين + فريون 11) - ضبط كمية الزيت - ضبط شحنة الفريون"
+            },
+            "دينمو مروحة الوحدة الداخلية يشتغل 10 ثواني ويفصل": {
+                "فحص": "فحص الدينمو - فحص اللوحة الإلكترونية الخاصة بالدينمو (في بعض الموديلات)",
+                "حل": "استبدال الجزء التالف"
+            },
+            "وجود آثار زيت على الوحدة الخارجية أو الداخلية": {
+                "فحص": "تسريب فريون",
+                "حل": "إصلاح التسريب + ضبط شحنة الفريون"
+            },
+            "الثيرموستات لا يعمل": {
+                "فحص": "فحص اللوحة الإلكترونية في الوحدة الداخلية - فحص كيبل الثيرموستات - فحص الثيرموستات",
+                "حل": "استبدال الجزء التالف"
+            },
+            "المكيف ضعيف في التبريد ولا يوجد ثلج على المبخر": {
+                "فحص": "فحص مروحة الوحدة الداخلية - فحص نظافة المبخر والمروحة للوحدة الداخلية - فحص شحنة الفريون - فحص أداء الكومبريسور (الطرد والسحب) - تراكم زيت الكومبريسور داخل المبخر",
+                "حل": "استبدال الجزء التالف - نظافة الدائرة الإنضغاطية (نيتروجين + فريون 11)"
+            },
+            "المكيف يسحب أمبير عالي ويفصل": {
+                "فحص": "فحص الكومبريسور - فحص الكباستور (إذا كان الفولت 220)",
+                "حل": "استبدال الجزء التالف"
+             }
+        },
+        "en": {
+            "Water leakage from the indoor unit": {
+       "Check": "Blockage in the drain line - Crack in the water collection tray - Ice formation on the evaporator due to low refrigerant or weak indoor unit fan motor - Faulty water pump in the tray (some models)",
+       "Solution": "Clean the drain line - Replace or repair the tray - Adjust the refrigerant charge - Replace the fan motor"
+   },
+   "Weak airflow": {
+       "Check": "Check the indoor unit fan motor - Check the indoor unit fan - Check the indoor unit fan capacitor - Blockage in the air filter due to dust",
+       "Solution": "Replace the faulty component - Clean the air filter"
+   },
+   "The AC does not work at all": {
+       "Check": "Check the power source - Check the electronic board in the indoor unit",
+       "Solution": "Replace the faulty component"
+   },
+   "The indoor fan works but the compressor does not": {
+       "Check": "Faulty capacitor - Faulty contactor - Faulty compressor",
+       "Solution": "Replace the faulty component"
+   },
+   "The AC does not cool": {
+       "Check": "Check the capacitor - Check the compressor - Check the refrigerant - Check the outdoor unit fan motor",
+       "Solution": "Replace the faulty component - Adjust the refrigerant charge and fix the leak - Replace the fan motor"
+   },
+   "The AC makes a loud noise in the indoor unit": {
+       "Check": "Check the indoor unit fan - Re-tighten the screws and internal parts",
+       "Solution": "Replace the faulty component"
+   },
+   "The compressor runs for 10 seconds and then stops": {
+       "Check": "Check the compressor resistance - Check the high-pressure valve - Check the low-pressure valve - Check the refrigerant charge",
+       "Solution": "Replace the faulty component - Adjust the refrigerant charge"
+   },
+   "The compressor does not work despite a signal in the contactor": {
+       "Check": "Faulty startup contactor",
+       "Solution": "Replace the startup contactor"
+   },
+   "The fans do not work": {
+       "Check": "Check the startup contactor - Check the fan capacitor - Check the fans",
+       "Solution": "Replace the faulty component"
+   },
+   "The compressor runs and does not stop": {
+       "Check": "Faulty electronic board - Faulty air sensor - Faulty refrigerant sensor",
+       "Solution": "Replace the faulty component"
+   },
+   "Ice on the small copper pipe": {
+       "Check": "Improper refrigerant charge",
+       "Solution": "Adjust the refrigerant charge"
+   },
+   "Ice on the large copper pipe": {
+       "Check": "Improper refrigerant charge - Dust buildup on the evaporator (indoor unit) and filters",
+       "Solution": "Adjust the refrigerant charge - Clean and wash the indoor unit with a pressure washer"
+   },
+   "No signal at all on the outdoor unit (not working)": {
+       "Check": "Faulty electronic board - Wiring error between the outdoor and indoor units",
+       "Solution": "Replace the faulty component - Review the connections"
+   },
+   "The compressor makes a loud noise with excellent cooling": {
+       "Check": "Low oil level inside the compressor motor",
+       "Solution": "Adjust the oil level or replace the compressor (as it won’t last long)"
+   },
+   "The compressor runs with proper refrigerant charge but no cooling": {
+       "Check": "Oil buildup inside the indoor unit - Compressor not compressing properly - Faulty capillary tube",
+       "Solution": "Clean the entire refrigeration circuit (nitrogen + Freon 11) - Replace the compressor - Replace the capillary tube"
+   },
+   "High AC amperage and high compressor temperature": {
+       "Check": "Blockage in the refrigeration circuit - Low oil level in the compressor - Excess refrigerant charge",
+       "Solution": "Clean the refrigeration circuit (nitrogen + Freon 11) - Adjust the oil level - Adjust the refrigerant charge"
+   },
+   "The indoor unit fan motor runs for 10 seconds and then stops": {
+       "Check": "Check the fan motor - Check the electronic board for the fan motor (in some models)",
+       "Solution": "Replace the faulty component"
+   },
+   "Oil traces on the outdoor or indoor unit": {
+       "Check": "Refrigerant leak",
+       "Solution": "Fix the leak + adjust the refrigerant charge"
+   },
+   "The thermostat does not work": {
+       "Check": "Check the electronic board in the indoor unit - Check the thermostat cable - Check the thermostat",
+       "Solution": "Replace the faulty component"
+   },
+   "The AC is weak in cooling with no ice on the evaporator": {
+       "Check": "Check the indoor unit fan - Check the cleanliness of the evaporator and indoor unit fan - Check the refrigerant charge - Check the compressor performance (suction and discharge) - Oil buildup from the compressor inside the evaporator",
+       "Solution": "Replace the faulty component - Clean the refrigeration circuit (nitrogen + Freon 11)"
+   },
+   "The AC draws high amperage and shuts off": {
+       "Check": "Check the compressor - Check the capacitor (if the voltage is 220V)",
+       "Solution": "Replace the faulty component"
+                   }
+        }
+    },
+    "باكدج": {
+        "ar": {
+            "المكيف لا يعمل نهائيًا": {
+                "فحص": "فحص مصدر التيار الكهربائي - فحص مفتاح التشغيل في المكيف - فحص الفيوزات - فحص جهاز الفيس فيلير - فحص أقطاب الكهرباء - فحص كيبل الثيرموستات",
+                "حل": "استبدال العنصر التالف - تعديل أقطاب الكهرباء - تغيير كيبل الثيرموستات"
+            },
+            "الهواء ضعيف": {
+                "فحص": "فحص دينمو المروحة - فحص كونتاكتور محرك المروحة - انسداد فلتر الهواء بالأتربة - انسداد المبخر بالأتربة والأوساخ",
+                "حل": "استبدال العنصر التالف - نظافة فلتر الهواء والمبخر"
+            },
+            "المكيف لا يبرد": {
+                "فحص": "فحص الكومبريسور - فحص الفريون - فحص دينمو المروحة الخارجية - مراجعة الكونترول والإشارة من اللوحة الإلكترونية",
+                "حل": "استبدال العنصر التالف - ضبط شحنة الفريون مع إصلاح التسريب - تغيير دينمو المروحة الخارجية - استبدال الجزء التالف في الكونترول"
+            },
+            "صوت صادر من المروحة": {
+                "فحص": "فحص سير المروحة (belt) - فحص (رولمان بلي)",
+                "حل": "استبدال السير (belt) - تشحيم (رولمان بلي) أو استبداله في حالة الكسر"
+            },
+            "الكومبريسور يفصل بعد مرور مدة من الزمن": {
+                "فحص": "فحص شحنة الفريون - فحص بلف الضغط العالي - فحص بلف الضغط المنخفض - فحص أوفرلود الكومبريسور (يتم تركيبه مع كونتاكتر الكومبريسور)",
+                "حل": "ضبط شحنة الفريون - استبدال الجزء التالف - ضبط أمبير الأوفرلود أو استبداله"
+            },
+            "المروحة تشتغل وتفصل": {
+                "فحص": "فحص سير (belt) المروحة - فحص أوفرلود المروحة (يتم تركيبه مع كونتاكتر المروحة)",
+                "حل": "استبدال سير (belt) المروحة إذا كان تالفًا (ضبط السير بحيث لا يكون مشدودًا، يتم ضبطه بواسطة الأمبير) - ضبط أمبير الأوفرلود أو استبداله"
+            },
+            "الكومبريسور يفصل بسبب ضغط الفريون العالي": {
+                "فحص": "فحص شحنة الفريون - فحص بلف الضغط العالي - انسداد المكثف بالأتربة والأوساخ - انسداد فلتر الفريون",
+                "حل": "ضبط شحنة الفريون - استبدال بلف الضغط العالي إذا كان تالفًا - غسيل ونظافة المكثف عن طريق ماكينة الضغط - استبدال فلتر الفريون ونظافة الدائرة (نيتروجين + فريون 11)"
+            },
+            "تراكم الثلج على المبخر": {
+                "فحص": "فحص شحنة الفريون - انسداد الفلتر والمبخر بالأتربة والأوساخ - فحص (exp.valve) - فحص دينمو المروحة",
+                "حل": "ضبط شحنة الفريون - غسيل ونظافة المبخر عن طريق ماكينة الضغط - استبدال (exp.valve) - استبدال أو إعادة إصلاح دينمو المروحة"
+            },
+            "المكيف يشتغل ويفصل": {
+                "فحص": "فحص اللوحة الإلكترونية - فحص ريليه التشغيل - فحص الترانس (محول الكهرباء من 220 فولت إلى 24 أو 12 فولت) - فحص الفولتية (والتأكد من أنه لا يوجد هبوط في الفولت) - فحص الضغط العالي - فحص الضغط المنخفض",
+                "حل": "استبدال الجزء التالف - بعد أنواع الترانس يوجد بها زر reset (يمكنك الضغط عليه – إذا حلت المشكلة لابد من تغييره)"
+            },
+            "الثيرموستات لا يعمل": {
+                "فحص": "فحص فيوز اللوحة الإلكترونية - فحص الفيس فيلير - فحص كيبل الثيرموستات",
+                "حل": "استبدال الجزء التالف"
+            },
+            "المروحة تشتغل بشكل معكوس (عكس الاتجاه الأصلي)": {
+                "فحص": "فحص الفيس فيلير - فحص أقطاب الكهرباء - أقطاب الكهرباء مقلوبة",
+                "حل": "ضبط أقطاب الكهرباء بالشكل الصحيح (أحمر أصفر أزرق)"
+            },
+            "المكيف يعمل ولكن لا يوجد تبريد": {
+                "فحص": "فحص الكومبريسور - فحص شحنة الفريون - فحص نظافة المبخر - فحص (Exp.valve) - فحص مراوح المكثف",
+                "حل": "استبدال الجزء التالف - ضبط شحنة الفريون - غسيل ونظافة المبخر بماكينة ضغط المياه"
+            },
+            "المكيف يشتغل ويوجد أحد الكومبريسورات يفصل": {
+                "فحص": "فحص شحنة الفريون - انسداد المكثف بالأتربة والأوساخ - فحص بلف الضغط العالي - فحص مراوح المكثف - فحص بلف الضغط المنخفض",
+                "حل": "ضبط شحنة الفريون - استبدال الجزء التالف - غسيل ونظافة المكثف بماكينة ضغط المياه"
+            },
+            "المكيف ضعيف في التبريد ولا يوجد ثلج على المبخر": {
+                "فحص": "فحص دينمو المروحة - فحص نظافة المبخر - فحص شحنة الفريون - فحص أداء الكومبريسور (الطرد والسحب) - تراكم زيت الكومبريسور داخل المبخر",
+                "حل": "استبدال الجزء التالف - نظافة الدائرة الإنضغاطية (نيتروجين + فريون 11) + استبدال فلتر الفريون"
+            }
+        },
+        "en": {
+            "The AC does not work at all": {
+                "Check": "Check the power source - Check the power switch on the AC - Check the fuses - Check the phase failure device - Check the electrical terminals - Check the thermostat cable",
+                "Solution": "Replace the faulty component - Adjust the electrical terminals - Replace the thermostat cable"
+            },
+            "Weak airflow": {
+                "Check": "Check the fan motor - Check the fan motor contactor - Blockage in the air filter due to dust - Blockage in the evaporator due to dust and dirt",
+                "Solution": "Replace the faulty component - Clean the air filter and evaporator"
+            },
+            "The AC does not cool": {
+                "Check": "Check the compressor - Check the refrigerant - Check the outdoor unit fan motor - Review the control and signal from the electronic board",
+                "Solution": "Replace the faulty component - Adjust the refrigerant charge and fix the leak - Replace the outdoor unit fan motor - Replace the faulty part in the control"
+            },
+            "Noise from the fan": {
+                "Check": "Check the fan belt - Check the ball bearing",
+                "Solution": "Replace the fan belt - Lubricate the ball bearing or replace it if broken"
+            },
+            "The compressor stops after a period of time": {
+                "Check": "Check the refrigerant charge - Check the high-pressure valve - Check the low-pressure valve - Check the compressor overload (installed with the compressor contactor)",
+                "Solution": "Adjust the refrigerant charge - Replace the faulty component - Adjust the overload amperage or replace it"
+            },
+            "The fan starts and stops": {
+                "Check": "Check the fan belt - Check the fan overload (installed with the fan contactor)",
+                "Solution": "Replace the fan belt if damaged (adjust the belt so it’s not too tight, adjusted via amperage) - Adjust the overload amperage or replace it"
+            },
+            "The compressor stops due to high refrigerant pressure": {
+                "Check": "Check the refrigerant charge - Check the high-pressure valve - Blockage in the condenser due to dust and dirt - Blockage in the refrigerant filter",
+                "Solution": "Adjust the refrigerant charge - Replace the high-pressure valve if damaged - Clean and wash the condenser with a pressure washer - Replace the refrigerant filter and clean the circuit (nitrogen + Freon 11)"
+            },
+            "Ice buildup on the evaporator": {
+                "Check": "Check the refrigerant charge - Blockage in the filter and evaporator due to dust and dirt - Check the expansion valve - Check the fan motor",
+                "Solution": "Adjust the refrigerant charge - Clean and wash the evaporator with a pressure washer - Replace the expansion valve - Replace or repair the fan motor"
+            },
+            "The AC starts and stops": {
+                "Check": "Check the electronic board - Check the startup relay - Check the transformer (converts 220V to 24V or 12V) - Check the voltage (ensure no voltage drop) - Check the high pressure - Check the low pressure",
+                "Solution": "Replace the faulty component - Some transformers have a reset button (press it, if the issue resolves, it must be replaced)"
+            },
+            "The thermostat does not work": {
+                "Check": "Check the electronic board fuse - Check the phase failure device - Check the thermostat cable",
+                "Solution": "Replace the faulty component"
+            },
+            "The fan runs in reverse (opposite direction)": {
+                "Check": "Check the phase failure device - Check the electrical terminals - Reversed electrical terminals",
+                "Solution": "Adjust the electrical terminals correctly (red, yellow, blue)"
+            },
+            "The AC works but there is no cooling": {
+                "Check": "Check the compressor - Check the refrigerant charge - Check the cleanliness of the evaporator - Check the expansion valve - Check the condenser fans",
+                "Solution": "Replace the faulty component - Adjust the refrigerant charge - Clean and wash the evaporator with a pressure washer"
+            },
+            "The AC runs but one of the compressors stops": {
+                "Check": "Check the refrigerant charge - Blockage in the condenser due to dust and dirt - Check the high-pressure valve - Check the condenser fans - Check the low-pressure valve",
+                "Solution": "Adjust the refrigerant charge - Replace the faulty component - Clean and wash the condenser with a pressure washer"
+            },
+            "The AC is weak in cooling with no ice on the evaporator": {
+                "Check": "Check the fan motor - Check the cleanliness of the evaporator - Check the refrigerant charge - Check the compressor performance (suction and discharge) - Oil buildup from the compressor inside the evaporator",
+                "Solution": "Replace the faulty component - Clean the refrigeration circuit (nitrogen + Freon 11) + replace the refrigerant filter"
+            }
+        }
+    },
+    "دولابي": {
+        "ar": {
+            "تسرب المياه من الوحدة الداخلية": {
+                "فحص": "انسداد مجرى تصريف الماء - كسر في حوض تجميع الماء - تكون ثلج على المبخر بسبب نقص الفريون أو ضعف دينمو مروحة الوحدة الداخلية",
+                "حل": "نظافة مجرى تصريف الماء - استبدال أو إصلاح الحوض - ضبط الشحنة"
+            },
+            "الهواء ضعيف": {
+                "فحص": "فحص دينمو مروحة الوحدة الداخلية - فحص مروحة الوحدة الداخلية - فحص كباستور دينمو الوحدة الداخلية - انسداد فلتر الهواء بالأتربة",
+                "حل": "استبدال العنصر التالف - نظافة فلتر الهواء"
+            },
+            "المكيف لا يعمل نهائيًا": {
+                "فحص": "فحص مصدر التيار الكهربائي - فحص اللوحة الإلكترونية في الوحدة الداخلية - فحص الفيوز في الوحدة الخارجية (مدخل الكهرباء في الوحدة)",
+                "حل": "استبدال العنصر التالف"
+            },
+            "الوحدة الداخلية تعمل لكن الكمبريسور لا يعمل": {
+                "فحص": "عطل في الكباستور (إذا كان الفولت 220) - عطل الكونتاكتور - عطل في الكومبريسور - عطل في صمام الضغط العالي - عطل في صمام الضغط المنخفض",
+                "حل": "استبدال العنصر التالف"
+            },
+            "المكيف لا يبرد": {
+                "فحص": "فحص الكباستور (إذا كان الفولت 220) - فحص الكومبريسور - فحص الفريون - فحص دينمو المروحة الخارجية",
+                "حل": "استبدال العنصر التالف - ضبط شحنة الفريون مع إصلاح التسريب - تغيير الدينمو"
+            },
+            "المكيف يصدر صوت عالي في الوحدة الداخلية": {
+                "فحص": "فحص مروحة الوحدة الداخلية - إعادة تثبيت البراغي والأجزاء الداخلية",
+                "حل": "استبدال الجزء التالف"
+            },
+            "الكومبريسور يعمل لمدة 10 ثواني ويفصل": {
+                "فحص": "فحص مقاومة الكومبريسور - فحص بلف الضغط العالي - فحص بلف الضغط المنخفض - فحص شحنة الفريون",
+                "حل": "استبدال الجزء التالف - ضبط شحنة الفريون"
+            },
+            "الكومبريسور لا يعمل مع وجود إشارة في الكونتاكتور": {
+                "فحص": "عطل في كونتاكتر التشغيل",
+                "حل": "تغيير كونتاكتور التشغيل"
+            },
+            "المراوح لا تعمل": {
+                "فحص": "فحص كونتاكتر التشغيل - فحص كباستور المراوح - فحص المراوح",
+                "حل": "تغيير الجزء التالف"
+            },
+            "الكومبريسور يعمل ولا يتوقف": {
+                "فحص": "عطل في اللوحة الإلكترونية - عطل في حساس الهواء - عطل في حساس الفريون",
+                "حل": "استبدال الجزء التالف"
+            },
+            "يوجد ثلج على ماسورة النحاس الصغيرة": {
+                "فحص": "شحنة الفريون غير مضبوطة",
+                "حل": "ضبط شحنة الفريون"
+            },
+            "يوجد ثلج على ماسورة النحاس الكبيرة": {
+                "فحص": "شحنة الفريون غير مضبوطة - تراكم الأوساخ على المبخر (الوحدة الداخلية) والفلاتر",
+                "حل": "ضبط شحنة الفريون - غسيل ونظافة الوحدة الداخلية عن طريق ماكينة الضغط"
+            },
+            "لا توجد إشارة نهائيًا على الوحدة الخارجية (لا تعمل)": {
+                "فحص": "عطل في اللوحة الإلكترونية - خطأ في التوصيل بين الوحدة الخارجية والوحدة الداخلية",
+                "حل": "استبدال الجزء التالف - مراجعة التوصيلات"
+            },
+            "الكومبريسور يصدر صوت عالي وتبريده ممتاز": {
+                "فحص": "انخفاض الزيت داخل محرك الكومبريسور",
+                "حل": "ضبط كمية الزيت أو استبدال الكومبريسور (لأنه لن يعمل لفترة طويلة)"
+            },
+            "الكومبريسور يعمل وشحنة الفريون مضبوطة ولكن لا يوجد تبريد": {
+                "فحص": "تراكم الزيت داخل الوحدة الداخلية - الكومبريسور لا يضغط بالشكل المطلوب - عطل في الكابلري",
+                "حل": "نظافة كامل الدائرة الإنضغاطية (نيتروجين + فريون 11) - استبدال الكومبريسور - استبدال الكابلري"
+            },
+            "أمبير المكيف عالي وحرارة الكومبريسور عالية": {
+                "فحص": "سدد في الدائرة الإنضغاطية - انخفاض الزيت في الكومبريسور - زيادة شحنة الفريون",
+                "حل": "نظافة الدائرة الإنضغاطية (نيتروجين + فريون 11) - ضبط كمية الزيت - ضبط شحنة الفريون"
+            },
+            "وجود آثار زيت على الوحدة الخارجية أو الداخلية": {
+                "فحص": "تسريب فريون",
+                "حل": "إصلاح التسريب + ضبط شحنة الفريون"
+            },
+            "المكيف ضعيف في التبريد ولا يوجد ثلج على المبخر": {
+                "فحص": "فحص مروحة الوحدة الداخلية - فحص نظافة المبخر والمروحة للوحدة الداخلية - فحص شحنة الفريون - فحص أداء الكومبريسور (الطرد والسحب) - تراكم زيت الكومبريسور داخل المبخر",
+                "حل": "استبدال الجزء التالف - نظافة الدائرة الإنضغاطية (نيتروجين + فريون 11) + استبدال فلتر الفريون"
+            },
+            "المكيف يسحب أمبير عالي ويفصل": {
+                "فحص": "فحص الكومبريسور - فحص الكباستور (إذا كان الفولت 220)",
+                "حل": "استبدال الجزء التالف"
+      }
+        },
+        "en": {
+            "Water leakage from the indoor unit": {
+       "Check": "Blockage in the drain line - Crack in the water collection tray - Ice formation on the evaporator due to low refrigerant or weak indoor unit fan motor",
+       "Solution": "Clean the drain line - Replace or repair the tray - Adjust the refrigerant charge"
+   },
+   "Weak airflow": {
+       "Check": "Check the indoor unit fan motor - Check the indoor unit fan - Check the indoor unit fan capacitor - Blockage in the air filter due to dust",
+       "Solution": "Replace the faulty component - Clean the air filter"
+   },
+   "The AC does not work at all": {
+       "Check": "Check the power source - Check the electronic board in the indoor unit - Check the fuse in the outdoor unit (power input to the unit)",
+       "Solution": "Replace the faulty component"
+   },
+   "The indoor unit works but the compressor does not": {
+       "Check": "Faulty capacitor (if the voltage is 220V) - Faulty contactor - Faulty compressor - Faulty high-pressure valve - Faulty low-pressure valve",
+       "Solution": "Replace the faulty component"
+   },
+   "The AC does not cool": {
+       "Check": "Check the capacitor (if the voltage is 220V) - Check the compressor - Check the refrigerant - Check the outdoor unit fan motor",
+       "Solution": "Replace the faulty component - Adjust the refrigerant charge and fix the leak - Replace the fan motor"
+   },
+   "The AC makes a loud noise in the indoor unit": {
+       "Check": "Check the indoor unit fan - Re-tighten the screws and internal parts",
+       "Solution": "Replace the faulty component"
+   },
+   "The compressor runs for 10 seconds and then stops": {
+       "Check": "Check the compressor resistance - Check the high-pressure valve - Check the low-pressure valve - Check the refrigerant charge",
+       "Solution": "Replace the faulty component - Adjust the refrigerant charge"
+   },
+   "The compressor does not work despite a signal in the contactor": {
+       "Check": "Faulty startup contactor",
+       "Solution": "Replace the startup contactor"
+   },
+   "The fans do not work": {
+       "Check": "Check the startup contactor - Check the fan capacitor - Check the fans",
+       "Solution": "Replace the faulty component"
+   },
+   "The compressor runs and does not stop": {
+       "Check": "Faulty electronic board - Faulty air sensor - Faulty refrigerant sensor",
+       "Solution": "Replace the faulty component"
+   },
+   "Ice on the small copper pipe": {
+       "Check": "Improper refrigerant charge",
+       "Solution": "Adjust the refrigerant charge"
+   },
+   "Ice on the large copper pipe": {
+       "Check": "Improper refrigerant charge - Dust buildup on the evaporator (indoor unit) and filters",
+       "Solution": "Adjust the refrigerant charge - Clean and wash the indoor unit with a pressure washer"
+   },
+   "No signal at all on the outdoor unit (not working)": {
+       "Check": "Faulty electronic board - Wiring error between the outdoor and indoor units",
+       "Solution": "Replace the faulty component - Review the connections"
+   },
+   "The compressor makes a loud noise with excellent cooling": {
+       "Check": "Low oil level inside the compressor motor",
+       "Solution": "Adjust the oil level or replace the compressor (as it won’t last long)"
+   },
+   "The compressor runs with proper refrigerant charge but no cooling": {
+       "Check": "Oil buildup inside the indoor unit - Compressor not compressing properly - Faulty capillary tube",
+       "Solution": "Clean the entire refrigeration circuit (nitrogen + Freon 11) - Replace the compressor - Replace the capillary tube"
+   },
+   "High AC amperage and high compressor temperature": {
+       "Check": "Blockage in the refrigeration circuit - Low oil level in the compressor - Excess refrigerant charge",
+       "Solution": "Clean the refrigeration circuit (nitrogen + Freon 11) - Adjust the oil level - Adjust the refrigerant charge"
+   },
+   "Oil traces on the outdoor or indoor unit": {
+       "Check": "Refrigerant leak",
+       "Solution": "Fix the leak + adjust the refrigerant charge"
+   },
+   "The AC is weak in cooling with no ice on the evaporator": {
+       "Check": "Check the indoor unit fan - Check the cleanliness of the evaporator and indoor unit fan - Check the refrigerant charge - Check the compressor performance (suction and discharge) - Oil buildup from the compressor inside the evaporator",
+       "Solution": "Replace the faulty component - Clean the refrigeration circuit (nitrogen + Freon 11) + replace the refrigerant filter"
+   },
+   "The AC draws high amperage and shuts off": {
+       "Check": "Check the compressor - Check the capacitor (if the voltage is 220V)",
+       "Solution": "Replace the faulty component"
+                   }
+        }
+    },
+
+    "كاسيت": {
+        "ar": {
+            "تسرب المياه من الوحدة الداخلية": {
+                "فحص": "انسداد مجرى تصريف الماء - كسر في حوض تجميع الماء - تكون ثلج على المبخر بسبب نقص الفريون أو ضعف دينمو مروحة الوحدة الداخلية - عطل في طلمبة دفع المياه من الحوض (بعض الموديلات)",
+                "حل": "نظافة مجرى تصريف الماء - استبدال أو إصلاح الحوض - ضبط الشحنة - استبدال الدينمو"
+            },
+            "الهواء ضعيف": {
+                "فحص": "فحص دينمو مروحة الوحدة الداخلية - فحص مروحة الوحدة الداخلية - فحص كباستور دينمو الوحدة الداخلية - انسداد فلتر الهواء بالأتربة",
+                "حل": "استبدال العنصر التالف - نظافة فلتر الهواء"
+            },
+            "المكيف لا يعمل نهائيًا": {
+                "فحص": "فحص مصدر التيار الكهربائي - فحص اللوحة الإلكترونية في الوحدة الداخلية",
+                "حل": "استبدال العنصر التالف"
+            },
+            "المروحة الداخلية تعمل لكن الكمبريسور لا يعمل": {
+                "فحص": "عطل في الكباستور (إذا كان الفولت 220) - عطل الكونتاكتور - عطل في الكومبريسور - عطل في بلف الضغط العالي - عطل في بلف الضغط المنخفض",
+                "حل": "استبدال العنصر التالف"
+            },
+            "المكيف لا يبرد": {
+                "فحص": "فحص الكباستور - فحص الكومبريسور - فحص الفريون - فحص دينمو المروحة الخارجية",
+                "حل": "استبدال العنصر التالف - ضبط شحنة الفريون مع إصلاح التسريب - تغيير الدينمو"
+            },
+            "المكيف يصدر صوت عالي في الوحدة الداخلية": {
+                "فحص": "فحص مروحة الوحدة الداخلية - إعادة تثبيت البراغي والأجزاء الداخلية",
+                "حل": "استبدال الجزء التالف"
+            },
+            "الكومبريسور يعمل لمدة 10 ثواني ويفصل": {
+                "فحص": "فحص مقاومة الكومبريسور - فحص بلف الضغط العالي - فحص بلف الضغط المنخفض - فحص شحنة الفريون",
+                "حل": "استبدال الجزء التالف - ضبط شحنة الفريون"
+            },
+            "الكومبريسور لا يعمل مع وجود إشارة في الكونتاكتور": {
+                "فحص": "عطل في كونتاكتر التشغيل",
+                "حل": "تغيير كونتاكتور التشغيل"
+            },
+            "المراوح لا تعمل": {
+                "فحص": "فحص كونتاكتر التشغيل - فحص كباستور المراوح - فحص المراوح",
+                "حل": "تغيير الجزء التالف"
+            },
+            "الكومبريسور يعمل ولا يتوقف": {
+                "فحص": "عطل في اللوحة الإلكترونية - عطل في حساس الهواء - عطل في حساس الفريون",
+                "حل": "استبدال الجزء التالف"
+            },
+            "يوجد ثلج على ماسورة النحاس الصغيرة": {
+                "فحص": "شحنة الفريون غير مضبوطة",
+                "حل": "ضبط شحنة الفريون"
+            },
+            "يوجد ثلج على ماسورة النحاس الكبيرة": {
+                "فحص": "شحنة الفريون غير مضبوطة - تراكم الأوساخ على المبخر (الوحدة الداخلية) والفلاتر",
+                "حل": "ضبط شحنة الفريون - غسيل ونظافة الوحدة الداخلية عن طريق ماكينة الضغط"
+            },
+            "لا توجد إشارة نهائيًا على الوحدة الخارجية (لا تعمل)": {
+                "فحص": "عطل في اللوحة الإلكترونية - خطأ في التوصيل بين الوحدة الخارجية والوحدة الداخلية",
+                "حل": "استبدال الجزء التالف - مراجعة التوصيلات"
+            },
+            "الكومبريسور يصدر صوت عالي وتبريده ممتاز": {
+                "فحص": "انخفاض الزيت داخل محرك الكومبريسور",
+                "حل": "ضبط كمية الزيت أو استبدال الكومبريسور (لأنه لن يعمل لفترة طويلة)"
+            },
+            "الكومبريسور يعمل وشحنة الفريون مضبوطة ولكن لا يوجد تبريد": {
+                "فحص": "تراكم الزيت داخل الوحدة الداخلية - الكومبريسور لا يضغط بالشكل المطلوب - عطل في الكابلري",
+                "حل": "نظافة كامل الدائرة الإنضغاطية (نيتروجين + فريون 11) - استبدال الكومبريسور - استبدال الكابلري"
+            },
+            "أمبير المكيف عالي وحرارة الكومبريسور عالية": {
+                "فحص": "سدد في الدائرة الإنضغاطية - انخفاض الزيت في الكومبريسور - زيادة شحنة الفريون",
+                "حل": "نظافة الدائرة الإنضغاطية (نيتروجين + فريون 11) - ضبط كمية الزيت - ضبط شحنة الفريون"
+            },
+            "دينمو مروحة الوحدة الداخلية يشتغل 10 ثواني ويفصل": {
+                "فحص": "فحص الدينمو - فحص اللوحة الإلكترونية الخاصة بالدينمو (في بعض الموديلات)",
+                "حل": "استبدال الجزء التالف"
+            },
+            "وجود آثار زيت على الوحدة الخارجية أو الداخلية": {
+                "فحص": "تسريب فريون",
+                "حل": "إصلاح التسريب + ضبط شحنة الفريون"
+            },
+            "الثيرموستات لا يعمل": {
+                "فحص": "فحص اللوحة الإلكترونية في الوحدة الداخلية - فحص كيبل الثيرموستات - فحص الثيرموستات",
+                "حل": "استبدال الجزء التالف"
+            },
+            "المكيف ضعيف في التبريد ولا يوجد ثلج على المبخر": {
+                "فحص": "فحص مروحة الوحدة الداخلية - فحص نظافة المبخر والمروحة للوحدة الداخلية - فحص شحنة الفريون - فحص أداء الكومبريسور (الطرد والسحب) - تراكم زيت الكومبريسور داخل المبخر",
+                "حل": "استبدال الجزء التالف - نظافة الدائرة الإنضغاطية (نيتروجين + فريون 11) + استبدال فلتر الفريون"
+            },
+            "المكيف يسحب أمبير عالي ويفصل": {
+                "فحص": "فحص الكومبريسور - فحص الكباستور (إذا كان الفولت 220)",
+                "حل": "استبدال الجزء التالف"
+       }
+        },
+        "en": {
+             "Water leakage from the indoor unit": {
+       "Check": "Blockage in the drain line - Crack in the water collection tray - Ice formation on the evaporator due to low refrigerant or weak indoor unit fan motor - Faulty water pump in the tray (some models)",
+       "Solution": "Clean the drain line - Replace or repair the tray - Adjust the refrigerant charge - Replace the fan motor"
+   },
+   "Weak airflow": {
+       "Check": "Check the indoor unit fan motor - Check the indoor unit fan - Check the indoor unit fan capacitor - Blockage in the air filter due to dust",
+       "Solution": "Replace the faulty component - Clean the air filter"
+   },
+   "The AC does not work at all": {
+       "Check": "Check the power source - Check the electronic board in the indoor unit",
+       "Solution": "Replace the faulty component"
+   },
+   "The indoor fan works but the compressor does not": {
+       "Check": "Faulty capacitor (if the voltage is 220V) - Faulty contactor - Faulty compressor - Faulty high-pressure valve - Faulty low-pressure valve",
+       "Solution": "Replace the faulty component"
+   },
+   "The AC does not cool": {
+       "Check": "Check the capacitor - Check the compressor - Check the refrigerant - Check the outdoor unit fan motor",
+       "Solution": "Replace the faulty component - Adjust the refrigerant charge and fix the leak - Replace the fan motor"
+   },
+   "The AC makes a loud noise in the indoor unit": {
+       "Check": "Check the indoor unit fan - Re-tighten the screws and internal parts",
+       "Solution": "Replace the faulty component"
+   },
+   "The compressor runs for 10 seconds and then stops": {
+       "Check": "Check the compressor resistance - Check the high-pressure valve - Check the low-pressure valve - Check the refrigerant charge",
+       "Solution": "Replace the faulty component - Adjust the refrigerant charge"
+   },
+   "The compressor does not work despite a signal in the contactor": {
+       "Check": "Faulty startup contactor",
+       "Solution": "Replace the startup contactor"
+   },
+   "The fans do not work": {
+       "Check": "Check the startup contactor - Check the fan capacitor - Check the fans",
+       "Solution": "Replace the faulty component"
+   },
+   "The compressor runs and does not stop": {
+       "Check": "Faulty electronic board - Faulty air sensor - Faulty refrigerant sensor",
+       "Solution": "Replace the faulty component"
+   },
+   "Ice on the small copper pipe": {
+       "Check": "Improper refrigerant charge",
+       "Solution": "Adjust the refrigerant charge"
+   },
+   "Ice on the large copper pipe": {
+       "Check": "Improper refrigerant charge - Dust buildup on the evaporator (indoor unit) and filters",
+       "Solution": "Adjust the refrigerant charge - Clean and wash the indoor unit with a pressure washer"
+   },
+   "No signal at all on the outdoor unit (not working)": {
+       "Check": "Faulty electronic board - Wiring error between the outdoor and indoor units",
+       "Solution": "Replace the faulty component - Review the connections"
+   },
+   "The compressor makes a loud noise with excellent cooling": {
+       "Check": "Low oil level inside the compressor motor",
+       "Solution": "Adjust the oil level or replace the compressor (as it won’t last long)"
+   },
+   "The compressor runs with proper refrigerant charge but no cooling": {
+       "Check": "Oil buildup inside the indoor unit - Compressor not compressing properly - Faulty capillary tube",
+       "Solution": "Clean the entire refrigeration circuit (nitrogen + Freon 11) - Replace the compressor - Replace the capillary tube"
+   },
+   "High AC amperage and high compressor temperature": {
+       "Check": "Blockage in the refrigeration circuit - Low oil level in the compressor - Excess refrigerant charge",
+       "Solution": "Clean the refrigeration circuit (nitrogen + Freon 11) - Adjust the oil level - Adjust the refrigerant charge"
+   },
+   "The indoor unit fan motor runs for 10 seconds and then stops": {
+       "Check": "Check the fan motor - Check the electronic board for the fan motor (in some models)",
+       "Solution": "Replace the faulty component"
+   },
+   "Oil traces on the outdoor or indoor unit": {
+       "Check": "Refrigerant leak",
+       "Solution": "Fix the leak + adjust the refrigerant charge"
+   },
+   "The thermostat does not work": {
+       "Check": "Check the electronic board in the indoor unit - Check the thermostat cable - Check the thermostat",
+       "Solution": "Replace the faulty component"
+   },
+   "The AC is weak in cooling with no ice on the evaporator": {
+       "Check": "Check the indoor unit fan - Check the cleanliness of the evaporator and indoor unit fan - Check the refrigerant charge - Check the compressor performance (suction and discharge) - Oil buildup from the compressor inside the evaporator",
+       "Solution": "Replace the faulty component - Clean the refrigeration circuit (nitrogen + Freon 11) + replace the refrigerant filter"
+   },
+   "The AC draws high amperage and shuts off": {
+       "Check": "Check the compressor - Check the capacitor (if the voltage is 220V)",
+       "Solution": "Replace the faulty component"
+
+            }
+        }
+    }
+}
