@@ -7,204 +7,454 @@
     <meta name="keywords" content="أعطال المكيفات, أكواد أخطاء المكيفات, صيانة مكيفات, تشخيص الأعطال, شيلرات, مخازن تبريد">
     <title>تشخيص أعطال المكيفات</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AdSense Verification Code -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3732463135652606" crossorigin="anonymous"></script>
     <style>
-        body {
-            font-family: 'Tajawal', sans-serif;
-            background: linear-gradient(to right, #f3f4f6, #e2e8f0);
-            color: #333;
-        }
+        body { font-family: Arial, sans-serif; background-color: #f8f9fa; }
         .container { margin-top: 20px; }
-        .card {
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-            border: none;
-            margin-bottom: 20px;
-        }
-        .card-header {
-            background: linear-gradient(to left, #007bff, #0056b3);
-            color: white;
-            font-weight: bold;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-        }
-        .navbar {
-            background-color: #ffffff !important;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        .navbar-brand {
-            font-weight: bold;
-            color: #007bff !important;
-        }
-        .section-title h2 {
-            color: #007bff;
-            margin-top: 30px;
-        }
-        .form-select, .form-control {
-            border-radius: 10px;
-            padding: 10px;
-        }
-        .lang-switch {
-            color: #007bff;
-            font-weight: bold;
-            cursor: pointer;
-            margin-left: 20px;
-        }
-        .lang-switch:hover {
-            text-decoration: underline;
-        }
+        .card { margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card-header { background-color: #007bff; color: white; font-weight: bold; }
         .ad-container { margin: 20px 0; text-align: center; }
         .ad-sidebar { position: sticky; top: 20px; width: 160px; height: 600px; margin-left: 10px; }
         .intro-text { text-align: center; margin: 20px; }
-        #search-results, #fault-details, #code-details { display: none; }
-        @media (max-width: 768px) {
-            .ad-sidebar { display: none; }
-            .navbar-brand { font-size: 18px; }
-            .intro-text h1 { font-size: 22px; }
-        }
+        .search-bar { margin: 20px 0; }
+        .lang-switch { cursor: pointer; font-size: 16px; }
     </style>
 </head>
 <body>
-    <!-- Popunder -->
-    <script type='text/javascript' src='//pl27162460.profitableratecpm.com/a4/93/da/a493da6aa12a8539ae9f8839ff10fbf8.js'></script>
-
-    <!-- Social Bar -->
-    <script type='text/javascript' src='//pl27173890.profitableratecpm.com/60/30/ba/6030babb987523075c755a2e89a36571.js'></script>
-
-    <!-- Header Banner -->
+    <!-- Header Ad -->
     <div class="ad-container">
-        <script type="text/javascript">
-            atOptions = {
-                'key': '506125113aa833193723b66551a54b7d',
-                'format': 'iframe',
-                'height': 90,
-                'width': 728,
-                'params': {}
-            };
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3732463135652606"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        <script type="text/javascript" src="//www.highperformanceformat.com/506125113aa833193723b66551a54b7d/invoke.js"></script>
     </div>
 
+    <!-- Descriptive Text for SEO -->
     <div class="intro-text">
-        <h1 id="main-title">تشخيص أعطال المكيفات بسهولة</h1>
-        <p id="main-desc">ابحث عن حلول سريعة لأعطال المكيفات وأكواد الأخطاء باللغتين العربية والإنجليزية. موقعك الموثوق لصيانة المكيفات!</p>
+        <h1>تشخيص أعطال المكيفات بسهولة</h1>
+        <p>ابحث عن حلول سريعة لأعطال المكيفات وأكواد الأخطاء باللغتين العربية والإنجليزية. موقعك الموثوق لصيانة المكيفات!</p>
     </div>
+<!-- إعلان Adsterra Banner -->
+<div class="ad-container">
+    <script type="text/javascript">
+        atOptions = {
+            'key' : '506125113aa833193723b66551a54b7d',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+    <script type="text/javascript" src="//www.highperformanceformat.com/506125113aa833193723b66551a54b7d/invoke.js"></script>
+</div>
 
-    <nav class="navbar navbar-light">
-        <div class="container-fluid d-flex justify-content-between">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">أعطال المكيفات</a>
-            <span class="lang-switch" onclick="switchLanguage()">English</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#symptoms">الأعراض</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#codes">أكواد الأخطاء</a></li>
+                </ul>
+                <span class="lang-switch" onclick="switchLanguage()">English</span>
+            </div>
         </div>
     </nav>
 
     <div class="container">
         <div class="row">
             <div class="col-md-9">
+                <!-- Search Bar -->
                 <div class="search-bar">
                     <input type="text" id="search-input" class="form-control" placeholder="ابحث عن عطل أو كود (مثل: لا يبرد أو F1)">
                     <div id="search-results"></div>
                 </div>
+
+                <!-- Ad After Search Results -->
+                <div class="ad-container">
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-3732463135652606"
+                         data-ad-slot="1122334455"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+
+                <!-- Symptoms Section -->
                 <section id="symptoms" class="section-title">
                     <h2 class="mb-4" id="symptoms-title">الأعراض</h2>
-                    <select id="ac-type" class="form-select"></select>
-                    <select id="symptom" class="form-select" disabled></select>
+                    <div class="dropdown">
+                        <label for="ac-type">اختر نوع المكيف:</label>
+                        <select id="ac-type" class="form-select">
+                            <option value="">-- اختر نوع المكيف --</option>
+                        </select>
+                    </div>
+                    <div class="dropdown">
+                        <label for="symptom">اختر العطل:</label>
+                        <select id="symptom" class="form-select" disabled>
+                            <option value="">-- اختر العطل --</option>
+                        </select>
+                    </div>
                     <div id="fault-details" class="mt-3"></div>
                 </section>
+
+                <!-- Error Codes Section -->
                 <section id="codes" class="section-title">
                     <h2 class="mb-4" id="codes-title">أكواد الأخطاء</h2>
-                    <select id="ac-code-type" class="form-select"></select>
-                    <select id="brand" class="form-select" disabled></select>
-                    <select id="code" class="form-select" disabled></select>
+                    <div class="dropdown">
+                        <label for="ac-code-type">اختر نوع المكيف:</label>
+                        <select id="ac-code-type" class="form-select">
+                            <option value="">-- اختر نوع المكيف --</option>
+                            <option value="عادي">عادي</option>
+                            <option value="إنفيرتر">إنفيرتر</option>
+                        </select>
+                    </div>
+                    <div class="dropdown">
+                        <label for="brand">اختر الماركة:</label>
+                        <select id="brand" class="form-select" disabled>
+                            <option value="">-- اختر الماركة --</option>
+                        </select>
+                    </div>
+                    <div class="dropdown">
+                        <label for="code">اختر الكود:</label>
+                        <select id="code" class="form-select" disabled>
+                            <option value="">-- اختر الكود --</option>
+                        </select>
+                    </div>
                     <div id="code-details" class="mt-3"></div>
                 </section>
-                <!-- In-page Banner -->
-                <div class="ad-container">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': '506125113aa833193723b66551a54b7d',
-                            'format': 'iframe',
-                            'height': 90,
-                            'width': 728,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//www.highperformanceformat.com/506125113aa833193723b66551a54b7d/invoke.js"></script>
-                </div>
             </div>
+            <!-- Sidebar Ad -->
             <div class="col-md-3">
                 <div class="ad-sidebar">
-                    <!-- Sidebar Ad -->
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': '506125113aa833193723b66551a54b7d',
-                            'format': 'iframe',
-                            'height': 600,
-                            'width': 160,
-                            'params': {}
-                        };
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-3732463135652606"
+                         data-ad-slot="0987654321"
+                         data-ad-format="auto"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
-                    <script type="text/javascript" src="//www.highperformanceformat.com/506125113aa833193723b66551a54b7d/invoke.js"></script>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer Banner -->
+    <!-- Footer Ad -->
     <div class="ad-container">
-        <script type="text/javascript">
-            atOptions = {
-                'key': '506125113aa833193723b66551a54b7d',
-                'format': 'iframe',
-                'height': 90,
-                'width': 728,
-                'params': {}
-            };
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3732463135652606"
+             data-ad-slot="5566778899"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        <script type="text/javascript" src="//www.highperformanceformat.com/506125113aa833193723b66551a54b7d/invoke.js"></script>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        const translations = {
+        let currentLang = 'ar';
+        const acTypeTranslations = {
+      ar: {
+        'شباك': 'شباك',
+        'سبليت': 'سبليت',
+        'باكدج': 'باكدج',
+        'مخفي دولابي/كاسيت': 'مخفي دولابي/كاسيت'
+      },
+      en: {
+        'شباك': 'Window',
+        'سبليت': 'Split',
+        'باكدج': 'Package',
+        'مخفي': 'Concealed',
+        'دولابي': 'free stand',
+        'كاسيت': 'Cassette',
+      }
+    };
+    const translations = {
             ar: {
-                mainTitle: 'تشخيص أعطال المكيفات بسهولة',
-                mainDesc: 'ابحث عن حلول سريعة لأعطال المكيفات وأكواد الأخطاء باللغتين العربية والإنجليزية. موقعك الموثوق لصيانة المكيفات!',
+                title: 'تشخيص أعطال المكيفات',
+                navbarBrand: 'أعطال المكيفات',
                 symptoms: 'الأعراض',
                 codes: 'أكواد الأخطاء',
+                selectAcType: 'اختر نوع المكيف:',
+                selectSymptom: 'اختر العطل:',
+                selectCodeType: 'اختر نوع المكيف:',
+                selectBrand: 'اختر الماركة:',
+                selectCode: 'اختر الكود:',
+                check: 'الفحص',
+                solution: 'الحل',
                 switchLang: 'English',
                 searchPlaceholder: 'ابحث عن عطل أو كود (مثل: لا يبرد أو F1)'
             },
             en: {
-                mainTitle: 'Easily Diagnose AC Faults',
-                mainDesc: 'Find fast solutions for AC faults and error codes in both Arabic and English. Your trusted AC repair site!',
+                title: 'Air Conditioner Fault Diagnosis',
+                navbarBrand: 'AC Faults',
                 symptoms: 'Symptoms',
                 codes: 'Error Codes',
+                selectAcType: 'Select AC Type:',
+                selectSymptom: 'Select Symptom:',
+                selectCodeType: 'Select AC Type:',
+                selectBrand: 'Select Brand:',
+                selectCode: 'Select Code:',
+                check: 'Check',
+                solution: 'Solution',
                 switchLang: 'العربية',
                 searchPlaceholder: 'Search for a symptom or code (e.g., Does not cool or F1)'
             }
         };
 
-        let currentLang = 'ar';
-
         function switchLanguage() {
             currentLang = currentLang === 'ar' ? 'en' : 'ar';
             $('html').attr('lang', currentLang).attr('dir', currentLang === 'ar' ? 'rtl' : 'ltr');
-            $('#main-title').text(translations[currentLang].mainTitle);
-            $('#main-desc').text(translations[currentLang].mainDesc);
+            $('title').text(translations[currentLang].title);
+            $('.navbar-brand').text(translations[currentLang].navbarBrand);
+            $('.nav-link[href="#symptoms"]').text(translations[currentLang].symptoms);
+            $('.nav-link[href="#codes"]').text(translations[currentLang].codes);
             $('#symptoms-title').text(translations[currentLang].symptoms);
             $('#codes-title').text(translations[currentLang].codes);
-            $('.lang-switch').text(translations[currentLang].switchLang);
+            $('label[for="ac-type"]').text(translations[currentLang].selectAcType);
+            $('label[for="symptom"]').text(translations[currentLang].selectSymptom);
+            $('label[for="ac-code-type"]').text(translations[currentLang].selectCodeType);
+            $('label[for="brand"]').text(translations[currentLang].selectBrand);
+            $('label[for="code"]').text(translations[currentLang].selectCode);
             $('#search-input').attr('placeholder', translations[currentLang].searchPlaceholder);
+            $('.lang-switch').text(translations[currentLang].switchLang);
+            updateSymptoms();
+            updateCodes();
+            $('#search-input').val('').trigger('input');
         }
 
-        $('#search-input').on('input', function() {
-            const val = $(this).val();
-            if (val.length > 0) {
-                $('#search-results').show();
-            } else {
-                $('#search-results').hide();
-            }
+        function updateSymptoms() {
+            const acTypeSelect = $('#ac-type');
+            const symptomSelect = $('#symptom');
+            const faultDetails = $('#fault-details');
+
+            fetch('faults.json')
+                .then(response => response.json())
+                .then(data => {
+                    acTypeSelect.empty().append(`<option value="">-- ${translations[currentLang].selectAcType} --</option>`);
+                    symptomSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectSymptom} --</option>`);
+                    faultDetails.empty();
+
+                    for (const acType in data) {
+                        acTypeSelect.append(`<option value="${acType}">${acTypeTranslations[currentLang][acType] || acType}</option>`);
+                    }
+
+                    acTypeSelect.off('change').on('change', function() {
+                        const selectedType = $(this).val();
+                        symptomSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectSymptom} --</option>`);
+                        faultDetails.empty();
+
+                        if (selectedType && data[selectedType]) {
+                            const lang = data[selectedType][currentLang] ? currentLang : 'ar';
+                            symptomSelect.prop('disabled', false);
+                            for (const symptom in data[selectedType][lang]) {
+                                symptomSelect.append(`<option value="${symptom}">${symptom}</option>`);
+                            }
+                        }
+                    });
+
+                    symptomSelect.off('change').on('change', function() {
+                        const selectedType = acTypeSelect.val();
+                        const selectedSymptom = $(this).val();
+                        faultDetails.empty();
+
+                        if (selectedType && selectedSymptom && data[selectedType]) {
+                            const lang = data[selectedType][currentLang] ? currentLang : 'ar';
+                            const fault = data[selectedType][lang][selectedSymptom];
+                            if (fault) {
+                                faultDetails.append(`
+                                    <div class="card">
+                                        <div class="card-header">${translations[currentLang].symptoms}: ${selectedSymptom} (${acTypeTranslations[currentLang][selectedType] || selectedType})</div>
+                                        <div class="card-body">
+                                            <p><strong>${translations[currentLang].check}:</strong> ${fault[lang === 'ar' ? 'فحص' : 'Check']}</p>
+                                            <p><strong>${translations[currentLang].solution}:</strong> ${fault[lang === 'ar' ? 'حل' : 'Solution']}</p>
+                                        </div>
+                                    </div>
+                                `);
+                            }
+                        }
+                    });
+                })
+                .catch(error => console.error('Error loading faults.json:', error));
+        }
+
+        function updateCodes() {
+            const acCodeTypeSelect = $('#ac-code-type');
+            const brandSelect = $('#brand');
+            const codeSelect = $('#code');
+            const codeDetails = $('#code-details');
+
+            const jsonFile = currentLang === 'ar' ? 'faults2.json' : 'faults3.json';
+            fetch(jsonFile)
+                .then(response => {
+                    if (!response.ok) throw new Error(`Failed to load ${jsonFile}`);
+                    return response.json();
+                })
+                .then(codes => {
+                    acCodeTypeSelect.empty().append(`<option value="">-- ${translations[currentLang].selectCodeType} --</option>`);
+                    const types = [...new Set(codes.map(code => code.category))];
+                    types.forEach(type => {
+                        acCodeTypeSelect.append(`<option value="${type}">${acTypeTranslations[currentLang][type] || type}</option>`);
+                    });
+
+                    brandSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectBrand} --</option>`);
+                    codeSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectCode} --</option>`);
+                    codeDetails.empty();
+
+                    acCodeTypeSelect.off('change').on('change', function() {
+                        const selectedType = $(this).val();
+                        brandSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectBrand} --</option>`);
+                        codeSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectCode} --</option>`);
+                        codeDetails.empty();
+
+                        if (selectedType) {
+                            const brands = [...new Set(codes
+                                .filter(code => code.category === selectedType)
+                                .map(code => code.brand))];
+                            brandSelect.prop('disabled', false);
+                            brands.forEach(brand => {
+                                brandSelect.append(`<option value="${brand}">${brand}</option>`);
+                            });
+                        }
+                    });
+
+                    brandSelect.off('change').on('change', function() {
+                        const selectedType = acCodeTypeSelect.val();
+                        const selectedBrand = $(this).val();
+                        codeSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectCode} --</option>`);
+                        codeDetails.empty();
+
+                        if (selectedBrand) {
+                            const codeList = codes
+                                .filter(code => code.category === selectedType && code.brand === selectedBrand)
+                                .map(code => code.fault_name);
+                            codeSelect.prop('disabled', false);
+                            codeList.forEach(code => {
+                                codeSelect.append(`<option value="${code}">${code}</option>`);
+                            });
+                        }
+                    });
+
+                    codeSelect.off('change').on('change', function() {
+                        const selectedType = acCodeTypeSelect.val();
+                        const selectedBrand = brandSelect.val();
+                        const selectedCode = $(this).val();
+                        codeDetails.empty();
+
+                        const code = codes.find(code => 
+                            code.category === selectedType && 
+                            code.brand === selectedBrand && 
+                            code.fault_name === selectedCode);
+
+                        if (code) {
+                            codeDetails.append(`
+                                <div class="card">
+                                    <div class="card-header">${translations[currentLang].codes}: ${code.fault_name} (${code.brand} - ${acTypeTranslations[currentLang][code.category] || code.category})</div>
+                                    <div class="card-body">
+                                        <p><strong>${translations[currentLang].check}:</strong> ${code.check_text}</p>
+                                        <p><strong>${translations[currentLang].solution}:</strong> ${code.solution}</p>
+                                    </div>
+                                </div>
+                            `);
+                        }
+                    });
+                })
+                .catch(error => console.error(`Error loading ${jsonFile}:`, error));
+        }
+
+        function searchFaultsAndCodes(query) {
+            const searchResults = $('#search-results');
+            searchResults.empty();
+
+            fetch('faults.json')
+                .then(response => response.json())
+                .then(data => {
+                    for (const acType in data) {
+                        const lang = data[acType][currentLang] ? currentLang : 'ar';
+                        for (const symptom in data[acType][lang]) {
+                            if (symptom.toLowerCase().includes(query.toLowerCase())) {
+                                const fault = data[acType][lang][symptom];
+                                searchResults.append(`
+                                    <div class="card">
+                                        <div class="card-header">${translations[currentLang].symptoms}: ${symptom} (${acTypeTranslations[currentLang][acType] || acType})</div>
+                                        <div class="card-body">
+                                            <p><strong>${translations[currentLang].check}:</strong> ${fault[lang === 'ar' ? 'فحص' : 'Check']}</p>
+                                            <p><strong>${translations[currentLang].solution}:</strong> ${fault[lang === 'ar' ? 'حل' : 'Solution']}</p>
+                                        </div>
+                                    </div>
+                                `);
+                            }
+                        }
+                    }
+                })
+                .catch(error => console.error('Error loading faults.json:', error));
+
+            const jsonFile = currentLang === 'ar' ? 'faults2.json' : 'faults3.json';
+            fetch(jsonFile)
+                .then(response => response.json())
+                .then(codes => {
+                    codes.forEach(code => {
+                        if (code.fault_name.toLowerCase().includes(query.toLowerCase()) ||
+                            code.check_text.toLowerCase().includes(query.toLowerCase()) ||
+                            code.solution.toLowerCase().includes(query.toLowerCase())) {
+                            searchResults.append(`
+                                <div class="card">
+                                    <div class="card-header">${translations[currentLang].codes}: ${code.fault_name} (${code.brand} - ${acTypeTranslations[currentLang][code.category] || code.category})</div>
+                                    <div class="card-body">
+                                        <p><strong>${translations[currentLang].check}:</strong> ${code.check_text}</p>
+                                        <p><strong>${translations[currentLang].solution}:</strong> ${code.solution}</p>
+                                    </div>
+                                </div>
+                            `);
+                        }
+                    });
+                })
+                .catch(error => console.error(`Error loading ${jsonFile}:`, error));
+        }
+
+        $(document).ready(function() {
+            updateSymptoms();
+            updateCodes();
+            $('#search-input').on('input', function() {
+                const query = $(this).val();
+                if (query.length > 0) {
+                    searchFaultsAndCodes(query);
+                } else {
+                    $('#search-results').empty();
+                }
+            });
         });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script type='text/javascript' src='//pl27162460.profitableratecpm.com/a4/93/da/a493da6aa12a8539ae9f8839ff10fbf8.js'></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '506125113aa833193723b66551a54b7d',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/506125113aa833193723b66551a54b7d/invoke.js"></script>
+<script type='text/javascript' src='//pl27173890.profitableratecpm.com/60/30/ba/6030babb987523075c755a2e89a36571.js'></script>
 </body>
 </html>
+لم استطع ارفاق الملف ... هل ستتعرف على موقعي هكذا .. هل لديك رؤية كامله بهذا الكود ؟؟ 
