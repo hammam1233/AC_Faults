@@ -1,0 +1,44 @@
+[
+  {
+    "name": {
+      "ar": "تراكم الثلج على المبخر",
+      "en": "Evaporator icing"
+    },
+    "check": {
+      "ar": "1. فحص نظام إزالة الجليد (Defrost).\n2. فحص حساس درجة الحرارة.\n3. التأكد من إغلاق أبواب الغرفة بإحكام.",
+      "en": "1. Check defrost system.\n2. Check temperature sensor.\n3. Ensure room doors are sealed properly."
+    },
+    "solution": {
+      "ar": "إصلاح نظام الديفروست، استبدال الحساس، إصلاح سدادات الأبواب.",
+      "en": "Repair defrost system, replace sensor, repair door seals."
+    }
+  },
+  {
+    "name": {
+      "ar": "عدم وصول درجة الحرارة المطلوبة",
+      "en": "Failure to reach set temperature"
+    },
+    "check": {
+      "ar": "1. فحص مستوى غاز التبريد.\n2. فحص عمل الضاغط.\n3. فحص نظافة المكثف والمبخر.",
+      "en": "1. Check refrigerant level.\n2. Check compressor operation.\n3. Check cleanliness of condenser and evaporator."
+    },
+    "solution": {
+      "ar": "شحن غاز، إصلاح الضاغط، تنظيف المكثف والمبخر.",
+      "en": "Recharge gas, repair compressor, clean condenser and evaporator."
+    }
+  },
+  {
+    "name": {
+      "ar": "صوت غير طبيعي من الوحدة",
+      "en": "Abnormal unit noise"
+    },
+    "check": {
+      "ar": "1. فحص مراوح المبخر والمكثف.\n2. فحص قواعد تثبيت الضاغط.\n3. التأكد من عدم وجود اهتزازات.",
+      "en": "1. Check evaporator and condenser fans.\n2. Check compressor mounting bases.\n3. Ensure no vibrations."
+    },
+    "solution": {
+      "ar": "تشحيم/استبدال محركات المراوح، شد البراغي، عزل الاهتزازات.",
+      "en": "Lubricate/replace fan motors, tighten bolts, isolate vibrations."
+    }
+  }
+]

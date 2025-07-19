@@ -1,23 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3732463135652606"
-     crossorigin="anonymous"></script>
-    <meta name="google-site-verification" content="NI7djxM0BAQEf5La7eZo5MHX7jIrNRMlkVLZxtTlw-M" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <script>
-        // JavaScript redirect to the new domain
-        window.location.replace("https://hvac-solutions.github.io/");
-    </script>
-    <noscript>
-        <meta http-equiv="refresh" content="0; url=https://hvac-solutions.github.io/">
-    </noscript>
-</head>
-<body>
-    <p>This site has moved. Please update your bookmarks.</p>
-    <p>If you are not redirected automatically, please click <a href="https://hvac-solutions.github.io/">here</a>.</p>
     <meta name="description" content="موسوعة أعطال التكييف: ابحث عن حلول سريعة لأعطال المكيفات، غرف التبريد، والشيلرات باللغتين العربية والإنجليزية.">
     <meta name="keywords" content="أعطال المكيفات, أكواد أخطاء المكيفات, صيانة مكيفات, تشخيص الأعطال, شيلرات, غرف تبريد">
     <title>موسوعة أعطال التكييف</title>
@@ -32,7 +17,8 @@
             --dark-text-color: #333;
             --light-text-color: #ffffff;
             --card-bg-color: #ffffff;
-            --card-header-bg: #007bff; /* Blue */
+            --card-header-bg: #007bff; /* Blue - Original in your file */
+            --dark-blue-header: #0056b3; /* Added: Darker blue for headers */
             --shadow-color: rgba(0,0,0,0.1);
         }
 
@@ -43,22 +29,22 @@
             margin: 0;
             padding: 0;
             width: 100%;
-            text-align: center;
+            text-align: center; /* This centers block-level elements like container if it's less than 100% width and display:block */
         }
         .container {
             width: 100%;
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 0 auto; /* Centering the container */
             padding: 0 15px; /* Add some horizontal padding */
         }
         .content-wrapper {
-            text-align: center;
-            margin: 0 auto;
+            text-align: center; /* This will center inline-block elements */
+            margin: 0 auto; /* Centering the wrapper itself */
             padding: 10px 0; /* Reduced vertical padding */
         }
         .intro-text {
             text-align: center;
-            margin: 0 auto;
+            margin: 0 auto; /* Centering this block */
             padding: 10px 0;
             margin-top: 20px; /* Reduced top margin */
         }
@@ -67,7 +53,7 @@
             font-size: 3rem;
             margin: 0;
             padding: 5px 0;
-            color: var(--card-header-bg); /* Use a vibrant color for title */
+            color: var(--dark-blue-header); /* Changed to dark blue header */
         }
         .intro-text p {
             font-family: 'Tajawal', sans-serif;
@@ -103,10 +89,10 @@
         }
 
         .search-bar {
-            margin: 30px 0; /* Reduced margin */
+            margin: 30px auto; /* Changed to auto to center and reduced margin */
             padding: 0;
             max-width: 800px;
-            display: inline-block;
+            /* Removed display: inline-block; */
             width: 100%; /* Ensure it takes full width within its container */
         }
         .search-bar .form-control {
@@ -124,10 +110,10 @@
 
 
         .section-title {
-            margin: 40px 0 20px 0; /* Reduced margin */
+            margin: 40px auto 20px auto; /* Changed to auto to center and reduced margin */
             padding: 0;
             max-width: 800px;
-            display: inline-block;
+            /* Removed display: inline-block; */
             width: 100%; /* Ensure it takes full width within its container */
         }
         .section-title h2 {
@@ -135,12 +121,13 @@
             font-size: 2rem; /* Slightly larger heading */
             margin: 0;
             padding: 0;
-            color: var(--card-header-bg); /* Match title color */
+            color: var(--dark-blue-header); /* Changed to dark blue header */
             border-bottom: 2px solid var(--accent-color); /* Underline effect */
             padding-bottom: 10px;
         }
         .dropdown {
-            margin: 15px 0; /* Reduced margin */
+            margin: 15px auto; /* Centered with auto margins and reduced */
+            max-width: 700px; /* Limit width for dropdowns as well */
         }
         .dropdown label {
             display: block;
@@ -167,7 +154,7 @@
             max-width: 700px; /* Max width for cards */
         }
         .card-header {
-            background-color: var(--card-header-bg);
+            background-color: var(--dark-blue-header); /* Changed to dark blue header */
             color: var(--light-text-color);
             font-weight: bold;
             border-radius: 12px 12px 0 0;
@@ -188,7 +175,7 @@
             margin-bottom: 0;
         }
         .card-body strong {
-            color: var(--card-header-bg); /* Bold text in body */
+            color: var(--dark-blue-header); /* Changed to dark blue header */
         }
 
         .coming-soon {
@@ -205,13 +192,13 @@
         }
 
         .lang-switch {
-            position: absolute; /* Changed from fixed to absolute to avoid overlap with ads if any */
-            top: 20px; /* Slightly lower to clear very top */
+            position: absolute;
+            top: 20px;
             right: 20px;
             background-color: var(--accent-color);
             color: var(--light-text-color);
-            padding: 10px 18px; /* Slightly larger padding */
-            border-radius: 25px; /* More rounded pill shape */
+            padding: 10px 18px;
+            border-radius: 25px;
             cursor: pointer;
             font-size: 16px;
             font-family: 'Tajawal', sans-serif;
@@ -265,39 +252,6 @@
             margin-left: 0;
         }
 
-        /* Footer styles */
-        .footer {
-            background-color: #007bff; /* Matching card header for consistency */
-            color: #ffffff;
-            padding: 30px 15px;
-            margin-top: 50px; /* Space above footer */
-            border-radius: 12px 12px 0 0; /* Rounded top corners */
-            text-align: center;
-            font-family: 'Tajawal', sans-serif;
-            font-size: 0.95rem;
-        }
-        .footer p {
-            margin-bottom: 8px;
-        }
-        .footer .footer-links a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 10px;
-            transition: color 0.3s ease;
-        }
-        .footer .footer-links a:hover {
-            color: #f39c12; /* Accent color on hover */
-        }
-        .footer .contact-info a {
-            color: #ffffff;
-            text-decoration: none;
-            word-break: break-all; /* Ensure long emails don't overflow on small screens */
-        }
-        .footer .contact-info a:hover {
-            text-decoration: underline;
-        }
-
-
         @media (max-width: 768px) {
             .intro-text h1 {
                 font-size: 2.2rem;
@@ -309,7 +263,7 @@
                 font-size: 1.7rem;
             }
             .section-title {
-                margin: 30px 0 15px 0;
+                margin: 30px auto 15px auto; /* Centered on small screens too */
             }
             .card {
                 margin: 15px auto;
@@ -335,9 +289,6 @@
             }
             .form-select {
                 font-size: 0.95rem;
-            }
-            .footer {
-                padding: 20px 10px;
             }
         }
     </style>
@@ -393,12 +344,6 @@
                     </select>
                 </div>
                 <div class="dropdown">
-                    <label for="ac-brand" id="label-ac-brand">اختر الماركة:</label>
-                    <select id="ac-brand" class="form-select" disabled>
-                        <option value="">-- اختر الماركة --</option>
-                    </select>
-                </div>
-                <div class="dropdown">
                     <label for="code" id="label-code">اختر الكود:</label>
                     <select id="code" class="form-select" disabled>
                         <option value="">-- اختر الكود --</option>
@@ -409,10 +354,10 @@
 
             <section id="chillers" class="section-title">
                 <h2 id="chillers-title"><i class="fas fa-fan"></i> أعطال الشيلر</h2>
-                <div class="dropdown">
-                    <label for="chiller-fault" id="label-chiller-fault">اختر العطل:</label>
+                <div class="dropdown" id="chiller-dropdown-container">
+                    <label for="chiller-fault" id="label-chiller-fault">اختر عطل الشيلر:</label>
                     <select id="chiller-fault" class="form-select">
-                        <option value="">-- اختر العطل --</option>
+                        <option value="">-- اختر عطل الشيلر --</option>
                     </select>
                 </div>
                 <div id="chiller-details"></div>
@@ -420,83 +365,16 @@
 
             <section id="cooling-rooms" class="section-title">
                 <h2 id="cooling-rooms-title"><i class="fas fa-snowflake"></i> أعطال غرف التبريد والتجميد</h2>
-                <div class="dropdown">
-                    <label for="cooling-room-fault" id="label-cooling-room-fault">اختر العطل:</label>
+                <div class="dropdown" id="cooling-room-dropdown-container">
+                    <label for="cooling-room-fault" id="label-cooling-room-fault">اختر عطل غرفة التبريد:</label>
                     <select id="cooling-room-fault" class="form-select">
-                        <option value="">-- اختر العطل --</option>
+                        <option value="">-- اختر عطل غرفة التبريد --</option>
                     </select>
                 </div>
                 <div id="cooling-room-details"></div>
             </section>
         </div>
     </div>
-
-    <footer class="footer">
-        <p id="footer-copyright"></p>
-        <p id="footer-developed-by"></p>
-        <div class="footer-links">
-            <a href="#privacy-policy-section" id="privacy-policy-link">سياسة الخصوصية</a> |
-            <a href="#terms-of-service-section" id="terms-of-service-link">شروط الخدمة</a>
-        </div>
-        <div class="contact-info">
-            <p><a href="mailto:alnurs50@gmail.com" id="footer-contact-link"></a></p> </div>
-    </footer>
-
-    <section id="privacy-policy-section" class="section-title" style="display: none;">
-        <div class="card">
-            <div class="card-header">سياسة الخصوصية</div>
-            <div class="card-body">
-                <p><strong>تاريخ السريان: 19 يوليو 2025</strong></p>
-                <p>مقدمة: نحن في موسوعة أعطال التكييف (المشار إليها بـ "الموقع") نلتزم بحماية خصوصية زوارنا. توضح هذه السياسة كيفية تعاملنا مع المعلومات التي قد يتم جمعها عند استخدامك لموقعنا.</p>
-                <p><strong>جمع المعلومات:</strong></p>
-                <ul>
-                    <li>لا يقوم هذا الموقع بجمع أي معلومات شخصية تحدد هويتك بشكل مباشر، مثل اسمك، عنوان بريدك الإلكتروني، أو رقم هاتفك، ما لم تقدمها طواعية عند استخدام رابط "اتصل بنا" عبر بريدك الإلكتروني.</li>
-                    <li>قد نستخدم خدمات تحليل بيانات خارجية (مثل Google Analytics في المستقبل، إذا تمت إضافته) التي تجمع معلومات غير شخصية حول استخدام الموقع، مثل نوع المتصفور، نظام التشغيل، الصفحات التي تمت زيارتها، والوقت المستغرق على الموقع. تُستخدم هذه البيانات لتحسين تجربة المستخدم وفهم كيفية تفاعل الزوار مع محتوانا. هذه المعلومات مجهولة الهوية ولا تحدد هويتك شخصيًا.</li>
-                </ul>
-                <p><strong>ملفات تعريف الارتباط (Cookies):</strong></p>
-                <p>قد يستخدم الموقع ملفات تعريف الارتباط (Cookies) وهي ملفات نصية صغيرة تُخزن على جهازك لتحسين تجربتك في التصفح، مثل تذكر تفضيلات اللغة. يمكنك دائمًا تعطيل ملفات تعريف الارتباط من إعدادات متصفحك.</p>
-                <p><strong>مشاركة المعلومات:</strong></p>
-                <p>نحن لا نبيع، نتاجر، أو نؤجر أي معلومات شخصية لجهات خارجية. قد نشارك معلومات غير شخصية ومجمعة مع شركاء موثوقين لأغراض إحصائية أو تحليلية فقط.</p>
-                <p><strong>روابط الطرف الثالث:</strong></p>
-                <p>قد يحتوي موقعنا على روابط لمواقع أخرى. نحن لسنا مسؤولين عن ممارسات الخصوصية لتلك المواقع. نوصيك بمراجعة سياسات الخصوصية الخاصة بها.</p>
-                <p><strong>التغييرات على سياسة الخصوصية:</strong></p>
-                <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سيتم نشر أي تغييرات هنا مع تحديث تاريخ السريان. ننصحك بمراجعة هذه الصفحة بشكل دوري.</p>
-                <p><strong>للتواصل معنا:</strong></p>
-                <p>إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى التواصل معنا عبر البريد الإلكتروني المذكور في قسم "اتصل بنا" بالموقع.</p>
-                <p style="font-size: 0.8rem; color: #777;">ملاحظة هامة: هذه السياسة هي نسخة عامة لأغراض معلوماتية. يرجى استشارة مستشار قانوني للحصول على سياسة خصوصية مخصصة ومطابقة لجميع المتطلبات القانونية في ولايتك القضائية، خاصة إذا كنت تخطط لجمع بيانات شخصية بشكل أوسع.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="terms-of-service-section" class="section-title" style="display: none;">
-        <div class="card">
-            <div class="card-header">شروط الخدمة</div>
-            <div class="card-body">
-                <p><strong>تاريخ السريان: 19 يوليو 2025</strong></p>
-                <p>مقدمة: مرحباً بك في موسوعة أعطال التكييف (المشار إليها بـ "الموقع"). يرجى قراءة شروط الخدمة هذه بعناية قبل استخدام الموقع. باستخدامك للموقع، فإنك توافق على الالتزام بهذه الشروط. إذا كنت لا توافق على أي جزء من هذه الشروط، يرجى عدم استخدام موقعنا.</p>
-                <p><strong>الغرض من الموقع:</strong></p>
-                <p>يهدف هذا الموقع إلى توفير معلومات عامة وحلول مقترحة لأعطال التكييف، غرف التبريد، والشيلرات. جميع المعلومات المقدمة هي لأغراض إرشادية فقط.</p>
-                <p><strong>إخلاء المسؤولية:</strong></p>
-                <ul>
-                    <li>يتم توفير المحتوى على هذا الموقع "كما هو" وبدون أي ضمانات من أي نوع، صريحة أو ضمنية.</li>
-                    <li>نحن لا نضمن دقة، اكتمال، موثوقية، أو ملاءمة المعلومات المقدمة لأي غرض معين.</li>
-                    <li>تقع مسؤولية استخدام أي معلومات أو حلول من هذا الموقع على عاتق المستخدم وحده. يجب عليك دائمًا استشارة فني تكييف مؤهل أو محترف قبل محاولة إصلاح أي أعطال أو تطبيق أي حلول مذكورة. نحن لسنا مسؤولين عن أي أضرار، إصابات، أو خسائر قد تنجم عن استخدام أو عدم القدرة على استخدام المعلومات المقدمة.</li>
-                </ul>
-                <p><strong>حقوق الملكية الفكرية:</strong></p>
-                <p>جميع المحتويات، بما في ذلك النصوص، الرسومات، الشعارات، الأيقونات، الصور، والتصاميم على هذا الموقع هي ملك لموسوعة أعطال التكييف أو مرخصة لها، وهي محمية بقوانين حقوق النشر والعلامات التجارية وحقوق الملكية الفكرية الأخرى.</p>
-                <p>لا يجوز لك نسخ، إعادة إنتاج، نشر، أو توزيع أي جزء من المحتوى دون إذن كتابي مسبق منا.</p>
-                <p><strong>روابط الطرف الثالث:</strong></p>
-                <p>قد يحتوي الموقع على روابط لمواقع أو خدمات تابعة لأطراف ثالثة. نحن لا نتحكم في محتوى أو سياسات الخصوصية لتلك المواقع ولسنا مسؤولين عنها.</p>
-                <p><strong>التغييرات على شروط الخدمة:</strong></p>
-                <p>نحتفظ بالحق في تعديل أو تحديث شروط الخدمة هذه في أي وقت. سيتم نشر أي تغييرات على هذه الصفحة. استمرارك في استخدام الموقع بعد نشر التغييرات يعني موافقتك على الشروط المعدلة.</p>
-                <p><strong>القانون المعمول به:</strong></p>
-                <p>تخضع هذه الشروط وتفسر وفقًا لقوانين المملكة العربية السعودية.</p>
-                <p><strong>للتواصل معنا:</strong></p>
-                <p>إذا كانت لديك أي أسئلة حول شروط الخدمة هذه، يرجى التواصل معنا عبر البريد الإلكتروني المذكور في قسم "اتصل بنا" بالموقع.</p>
-                <p style="font-size: 0.8rem; color: #777;">ملاحظة هامة: هذه الشروط هي نسخة عامة لأغراض معلوماتية. يرجى استشارة مستشار قانوني للحصول على شروط خدمة مخصصة ومطابقة لجميع المتطلبات القانونية في ولايتك القضائية، خاصة إذا كان موقعك يقدم خدمات تجارية أو يجمع بيانات حساسة.</p>
-            </div>
-        </div>
-    </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -512,12 +390,10 @@
                 'إنفيرتر': 'إنفيرتر'
             },
             en: {
-        'شباك': 'Window',
-        'سبليت': 'Split',
-        'باكدج': 'Package',
-        'مخفي': 'Concealed',
-        'دولابي': 'free stand',
-        'كاسيت': 'Cassette',
+                'شباك': 'Window',
+                'سبليت': 'Split',
+                'باكدج': 'Package',
+                'مخفي دولابي/كاسيت': 'Concealed/Free Stand/Cassette',
                 'عادي': 'Normal',
                 'إنفيرتر': 'Inverter'
             }
@@ -534,22 +410,16 @@
                 coolingRooms: 'أعطال غرف التبريد والتجميد',
                 selectAcType: 'اختر نوع المكيف:',
                 selectSymptom: 'اختر العطل:',
-                selectCodeType: 'اختر نوع التكييف:', // Still 'Normal/Inverter'
-                selectBrand: 'اختر الماركة:', // New translation
+                selectCodeType: 'اختر نوع التكييف:',
                 selectCode: 'اختر الكود:',
-                selectChillerFault: 'اختر عطل الشيلر:', // New translation
-                selectCoolingRoomFault: 'اختر عطل غرفة التبريد:', // New translation
+                selectChillerFault: 'اختر عطل الشيلر:', // New
+                selectCoolingRoomFault: 'اختر عطل غرفة التبريد:', // New
                 check: 'الفحص',
                 solution: 'الحل',
                 switchLang: 'English',
                 searchPlaceholder: 'ابحث عن عطل أو كود (مثل: لا يبرد أو F1)',
                 comingSoon: 'قريبًا',
-                selectOption: '-- اختر --',
-                privacyPolicy: 'سياسة الخصوصية',
-                termsOfService: 'شروط الخدمة',
-                copyright: 'جميع الحقوق محفوظة © 2025',
-                developedBy: 'التطوير بواسطة المهندس / همام التريكي',
-                contactLinkText: 'للتواصل عبر البريد الإلكتروني'
+                selectOption: '-- اختر --'
             },
             en: {
                 title: 'Air Conditioning Faults Encyclopedia',
@@ -562,22 +432,16 @@
                 coolingRooms: 'Cooling Room & Freezing Faults',
                 selectAcType: 'Select AC Type:',
                 selectSymptom: 'Select Symptom:',
-                selectCodeType: 'Select AC Type:', // Still 'Normal/Inverter'
-                selectBrand: 'Select Brand:', // New translation
+                selectCodeType: 'Select AC Type:',
                 selectCode: 'Select Code:',
-                selectChillerFault: 'Select Chiller Fault:', // New translation
-                selectCoolingRoomFault: 'Select Cooling Room Fault:', // New translation
+                selectChillerFault: 'Select Chiller Fault:', // New
+                selectCoolingRoomFault: 'Select Cooling Room Fault:', // New
                 check: 'Check',
                 solution: 'Solution',
                 switchLang: 'العربية',
                 searchPlaceholder: 'Search for a symptom or code (e.g., Does not cool or F1)',
                 comingSoon: 'Coming Soon',
-                selectOption: '-- Select --',
-                privacyPolicy: 'Privacy Policy',
-                termsOfService: 'Terms of Service',
-                copyright: 'All Rights Reserved © 2025',
-                developedBy: 'Developed by Engineer / Hammam Al-Treiki',
-                contactLinkText: 'Contact via Email'
+                selectOption: '-- Select --'
             }
         };
 
@@ -598,36 +462,26 @@
             $('#label-ac-type').text(translations[currentLang].selectAcType);
             $('#label-symptom').text(translations[currentLang].selectSymptom);
             $('#label-ac-code-type').text(translations[currentLang].selectCodeType);
-            $('#label-ac-brand').text(translations[currentLang].selectBrand);
             $('#label-code').text(translations[currentLang].selectCode);
-            $('#label-chiller-fault').text(translations[currentLang].selectChillerFault); // New label
-            $('#label-cooling-room-fault').text(translations[currentLang].selectCoolingRoomFault); // New label
+            $('#label-chiller-fault').text(translations[currentLang].selectChillerFault); // New
+            $('#label-cooling-room-fault').text(translations[currentLang].selectCoolingRoomFault); // New
 
             $('#ac-type option[value=""]').text(`-- ${translations[currentLang].selectAcType} --`);
             $('#symptom option[value=""]').text(`-- ${translations[currentLang].selectSymptom} --`);
             $('#ac-code-type option[value=""]').text(`-- ${translations[currentLang].selectCodeType} --`);
-            $('#ac-brand option[value=""]').text(`-- ${translations[currentLang].selectBrand} --`);
             $('#code option[value=""]').text(`-- ${translations[currentLang].selectCode} --`);
-            $('#chiller-fault option[value=""]').text(`-- ${translations[currentLang].selectChillerFault} --`); // New option
-            $('#cooling-room-fault option[value=""]').text(`-- ${translations[currentLang].selectCoolingRoomFault} --`); // New option
-
+            $('#chiller-fault option[value=""]').text(`-- ${translations[currentLang].selectChillerFault} --`); // New
+            $('#cooling-room-fault option[value=""]').text(`-- ${translations[currentLang].selectCoolingRoomFault} --`); // New
 
             $('#search-input').attr('placeholder', translations[currentLang].searchPlaceholder);
             $('#lang-switch').html(`<i class="fas fa-globe"></i> ${translations[currentLang].switchLang}`);
-            $('#chiller-coming-soon-text').text(translations[currentLang].comingSoon);
-            $('#cooling-room-coming-soon-text').text(translations[currentLang].comingSoon);
-
-            $('#privacy-policy-link').text(translations[currentLang].privacyPolicy);
-            $('#terms-of-service-link').text(translations[currentLang].termsOfService);
-            $('#footer-copyright').text(translations[currentLang].copyright);
-            $('#footer-developed-by').text(translations[currentLang].developedBy);
-            $('#footer-contact-link').text(translations[currentLang].contactLinkText);
             
+            // Re-populate dropdowns and clear details based on new language
             updateSymptoms();
             updateCodes();
             updateChillers();
             updateCoolingRooms();
-            $('#search-input').val('').trigger('input');
+            $('#search-input').val('').trigger('input'); // Clear search and re-trigger to update results if any
         }
 
         function updateSymptoms() {
@@ -646,6 +500,7 @@
                     faultDetails.empty();
 
                     for (const acType in data) {
+                        // Use acTypeTranslations for display, but keep original value for logic
                         acTypeSelect.append(`<option value="${acType}">${acTypeTranslations[currentLang][acType] || acType}</option>`);
                     }
 
@@ -655,7 +510,8 @@
                         faultDetails.empty();
 
                         if (selectedType && data[selectedType]) {
-                            const langKey = data[selectedType][currentLang] ? currentLang : 'ar';
+                            // Determine the language key to use from the JSON structure
+                            const langKey = data[selectedType][currentLang] ? currentLang : 'ar'; // Fallback to 'ar' if currentLang not found
                             symptomSelect.prop('disabled', false);
                             for (const symptom in data[selectedType][langKey]) {
                                 symptomSelect.append(`<option value="${symptom}">${symptom}</option>`);
@@ -689,9 +545,8 @@
         }
 
         function updateCodes() {
-            const acCodeTypeSelect = $('#ac-code-type'); // For 'Normal' / 'Inverter'
-            const acBrandSelect = $('#ac-brand'); // New dropdown for Brand
-            const codeSelect = $('#code'); // For the actual error code
+            const acCodeTypeSelect = $('#ac-code-type');
+            const codeSelect = $('#code');
             const codeDetails = $('#code-details');
 
             const jsonFile = currentLang === 'ar' ? 'faults2.json' : 'faults3.json';
@@ -700,76 +555,50 @@
                     if (!response.ok) throw new Error(`Failed to load ${jsonFile}`);
                     return response.json();
                 })
-                .then(allCodesData => {
-                    // Populate AC Type dropdown (Normal/Inverter)
+                .then(codes => {
                     acCodeTypeSelect.empty().append(`<option value="">-- ${translations[currentLang].selectCodeType} --</option>`);
-                    const types = [...new Set(allCodesData.map(code => code.category))];
+                    // Ensure categories are unique and respect translation if available
+                    const types = [...new Set(codes.map(code => code.category))];
                     types.forEach(type => {
                         acCodeTypeSelect.append(`<option value="${type}">${acTypeTranslations[currentLang][type] || type}</option>`);
                     });
 
-                    // Disable Brand and Code dropdowns initially
-                    acBrandSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectBrand} --</option>`);
                     codeSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectCode} --</option>`);
                     codeDetails.empty();
 
-                    // Event listener for AC Type change
                     acCodeTypeSelect.off('change').on('change', function() {
-                        const selectedType = $(this).val(); // 'عادي' or 'إنفيرتر'
-                        acBrandSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectBrand} --</option>`);
+                        const selectedType = $(this).val();
                         codeSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectCode} --</option>`);
                         codeDetails.empty();
 
                         if (selectedType) {
-                            const brands = [...new Set(allCodesData
+                            const codeList = codes
                                 .filter(code => code.category === selectedType)
-                                .map(code => code.brand))]; // Assuming 'brand' field exists in JSON
-                            
-                            brands.forEach(brand => {
-                                acBrandSelect.append(`<option value="${brand}">${brand}</option>`);
-                            });
-                            acBrandSelect.prop('disabled', false);
-                        }
-                    });
-
-                    // Event listener for AC Brand change
-                    acBrandSelect.off('change').on('change', function() {
-                        const selectedType = acCodeTypeSelect.val();
-                        const selectedBrand = $(this).val(); // The chosen brand
-                        codeSelect.prop('disabled', true).empty().append(`<option value="">-- ${translations[currentLang].selectCode} --</option>`);
-                        codeDetails.empty();
-
-                        if (selectedType && selectedBrand) {
-                            const codesList = allCodesData
-                                .filter(code => code.category === selectedType && code.brand === selectedBrand)
                                 .map(code => code.fault_name);
-                            
-                            codesList.forEach(code => {
-                                codeSelect.append(`<option value="${code}">${code}</option>`);
-                            });
                             codeSelect.prop('disabled', false);
+                            codeList.forEach(code => {
+                                codeSelect.append(`<option value="${code}">${code}</option>`);
+                            }
+);
                         }
                     });
 
-                    // Event listener for Code change (MODIFIED to use brand)
                     codeSelect.off('change').on('change', function() {
                         const selectedType = acCodeTypeSelect.val();
-                        const selectedBrand = acBrandSelect.val();
                         const selectedCode = $(this).val();
                         codeDetails.empty();
 
-                        const foundCode = allCodesData.find(code => 
+                        const code = codes.find(code => 
                             code.category === selectedType && 
-                            code.brand === selectedBrand &&
                             code.fault_name === selectedCode);
 
-                        if (foundCode) {
+                        if (code) {
                             codeDetails.append(`
                                 <div class="card">
-                                    <div class="card-header">${translations[currentLang].codes}: ${foundCode.fault_name} (${acTypeTranslations[currentLang][foundCode.category] || foundCode.category} - ${foundCode.brand})</div>
+                                    <div class="card-header">${translations[currentLang].codes}: ${code.fault_name} (${acTypeTranslations[currentLang][code.category] || code.category})</div>
                                     <div class="card-body">
-                                        <p><strong>${translations[currentLang].check}:</strong> ${foundCode.check_text}</p>
-                                        <p><strong>${translations[currentLang].solution}:</strong> ${foundCode.solution}</p>
+                                        <p><strong>${translations[currentLang].check}:</strong> ${code.check_text}</p>
+                                        <p><strong>${translations[currentLang].solution}:</strong> ${code.solution}</p>
                                     </div>
                                 </div>
                             `);
@@ -779,11 +608,35 @@
                 .catch(error => console.error(`Error loading ${jsonFile}:`, error));
         }
 
-        function updateCoolingRooms() {
-            const coolingRoomFaultSelect = $('#cooling-room-fault');
-            const coolingRoomDetailsDiv = $('#cooling-room-details');
+        // START OF MODIFICATIONS FOR "COMING SOON" LOGIC
+        function showComingSoon(detailsDiv, selectElement, containerId) {
+            detailsDiv.html(`
+                <div class="card">
+                    <div class="card-body coming-soon">
+                        <i class="fas fa-hourglass-half"></i> <span id="${containerId}-coming-soon-text">${translations[currentLang].comingSoon}</span>
+                    </div>
+                </div>
+            `);
+            selectElement.empty().append(`<option value="">-- ${translations[currentLang].selectOption} --</option>`);
+            selectElement.prop('disabled', true); // Disable dropdown when showing coming soon
+            $(`#${containerId}`).hide(); // Hide the dropdown container itself
+        }
 
-            fetch('cooling_rooms.json') // Single file for both languages
+        function hideComingSoon(detailsDiv, selectElement, containerId) {
+            detailsDiv.empty();
+            selectElement.prop('disabled', false); // Enable dropdown
+            $(`#${containerId}`).show(); // Show the dropdown container
+        }
+
+        function updateCoolingRooms() {
+            const coolingRoomSelect = $('#cooling-room-fault');
+            const coolingRoomDetailsDiv = $('#cooling-room-details');
+            const coolingRoomDropdownContainer = $('#cooling-room-dropdown-container');
+
+            // Set initial state to "Coming Soon"
+            showComingSoon(coolingRoomDetailsDiv, coolingRoomSelect, 'cooling-room-dropdown-container');
+
+            fetch('cooling_rooms.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('cooling_rooms.json not found or failed to load');
@@ -791,69 +644,57 @@
                     return response.json();
                 })
                 .then(data => {
-                    coolingRoomFaultSelect.empty().append(`<option value="">-- ${translations[currentLang].selectCoolingRoomFault} --</option>`);
-                    coolingRoomDetailsDiv.empty();
-
-                    if (data.length === 0) {
-                        // If JSON is empty, show "Coming Soon"
-                        coolingRoomFaultSelect.prop('disabled', true);
-                        coolingRoomDetailsDiv.html(`
-                            <div class="card">
-                                <div class="card-body coming-soon">
-                                    <i class="fas fa-hourglass-half"></i> <span id="cooling-room-coming-soon-text">${translations[currentLang].comingSoon}</span>
-                                </div>
-                            </div>
-                        `);
-                        return;
+                    if (data.length === 0) { // If JSON is empty
+                        showComingSoon(coolingRoomDetailsDiv, coolingRoomSelect, 'cooling-room-dropdown-container');
+                        console.warn('cooling_rooms.json is empty, showing "Coming Soon".');
+                        return; // Exit if no data
                     }
 
-                    coolingRoomFaultSelect.prop('disabled', false);
-                    data.forEach((fault, index) => {
-                        // Assuming fault.name is an object {ar: "...", en: "..."}, similar to symptoms faults.json
-                        const faultName = fault.name[currentLang] || fault.name.ar; 
-                        coolingRoomFaultSelect.append(`<option value="${index}">${faultName}</option>`);
+                    hideComingSoon(coolingRoomDetailsDiv, coolingRoomSelect, 'cooling-room-dropdown-container');
+                    
+                    // Populate dropdown
+                    coolingRoomSelect.empty().append(`<option value="">-- ${translations[currentLang].selectCoolingRoomFault} --</option>`);
+                    data.forEach(fault => {
+                        const faultName = fault.name[currentLang] || fault.name.ar;
+                        coolingRoomSelect.append(`<option value="${faultName}">${faultName}</option>`);
                     });
 
-                    coolingRoomFaultSelect.off('change').on('change', function() {
-                        const selectedIndex = $(this).val();
-                        coolingRoomDetailsDiv.empty();
+                    // Add change listener to the dropdown
+                    coolingRoomSelect.off('change').on('change', function() {
+                        const selectedFaultName = $(this).val();
+                        coolingRoomDetailsDiv.empty(); // Clear previous details
 
-                        if (selectedIndex !== "") {
-                            const fault = data[selectedIndex];
-                            const faultName = fault.name[currentLang] || fault.name.ar;
-                            const checkText = fault.check[currentLang] || fault.check.ar;
-                            const solutionText = fault.solution[currentLang] || fault.solution.ar;
-
-                            coolingRoomDetailsDiv.append(`
-                                <div class="card">
-                                    <div class="card-header">${translations[currentLang].coolingRooms}: ${faultName}</div>
-                                    <div class="card-body">
-                                        <p><strong>${translations[currentLang].check}:</strong> ${checkText}</p>
-                                        <p><strong>${translations[currentLang].solution}:</strong> ${solutionText}</p>
+                        if (selectedFaultName) {
+                            const fault = data.find(f => (f.name[currentLang] || f.name.ar) === selectedFaultName);
+                            if (fault) {
+                                coolingRoomDetailsDiv.append(`
+                                    <div class="card">
+                                        <div class="card-header">${translations[currentLang].coolingRooms}: ${fault.name[currentLang] || fault.name.ar}</div>
+                                        <div class="card-body">
+                                            <p><strong>${translations[currentLang].check}:</strong> ${fault.check[currentLang] || fault.check.ar}</p>
+                                            <p><strong>${translations[currentLang].solution}:</strong> ${fault.solution[currentLang] || fault.solution.ar}</p>
+                                        </div>
                                     </div>
-                                </div>
-                            `);
+                                `);
+                            }
                         }
                     });
                 })
                 .catch(error => {
-                    console.warn(`Cooling Rooms data not loaded, showing 'Coming Soon': ${error.message}`);
-                    coolingRoomFaultSelect.prop('disabled', true);
-                    coolingRoomDetailsDiv.html(`
-                        <div class="card">
-                            <div class="card-body coming-soon">
-                                <i class="fas fa-hourglass-half"></i> <span id="cooling-room-coming-soon-text">${translations[currentLang].comingSoon}</span>
-                            </div>
-                        </div>
-                    `);
+                    console.warn(`Cooling Rooms data loading error: ${error.message}`);
+                    showComingSoon(coolingRoomDetailsDiv, coolingRoomSelect, 'cooling-room-dropdown-container');
                 });
         }
 
         function updateChillers() {
-            const chillerFaultSelect = $('#chiller-fault');
+            const chillerSelect = $('#chiller-fault');
             const chillerDetailsDiv = $('#chiller-details');
+            const chillerDropdownContainer = $('#chiller-dropdown-container');
 
-            fetch('chillers.json') // Single file for both languages
+            // Set initial state to "Coming Soon"
+            showComingSoon(chillerDetailsDiv, chillerSelect, 'chiller-dropdown-container');
+
+            fetch('chillers.json')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('chillers.json not found or failed to load');
@@ -861,63 +702,48 @@
                     return response.json();
                 })
                 .then(data => {
-                    chillerFaultSelect.empty().append(`<option value="">-- ${translations[currentLang].selectChillerFault} --</option>`);
-                    chillerDetailsDiv.empty();
-
-                    if (data.length === 0) {
-                        // If JSON is empty, show "Coming Soon"
-                        chillerFaultSelect.prop('disabled', true);
-                        chillerDetailsDiv.html(`
-                            <div class="card">
-                                <div class="card-body coming-soon">
-                                    <i class="fas fa-hourglass-half"></i> <span id="chiller-coming-soon-text">${translations[currentLang].comingSoon}</span>
-                                </div>
-                            </div>
-                        `);
-                        return;
+                    if (data.length === 0) { // If JSON is empty
+                        showComingSoon(chillerDetailsDiv, chillerSelect, 'chiller-dropdown-container');
+                        console.warn('chillers.json is empty, showing "Coming Soon".');
+                        return; // Exit if no data
                     }
 
-                    chillerFaultSelect.prop('disabled', false);
-                    data.forEach((fault, index) => {
-                        // Assuming fault.name is an object {ar: "...", en: "..."}, similar to symptoms faults.json
+                    hideComingSoon(chillerDetailsDiv, chillerSelect, 'chiller-dropdown-container');
+                    
+                    // Populate dropdown
+                    chillerSelect.empty().append(`<option value="">-- ${translations[currentLang].selectChillerFault} --</option>`);
+                    data.forEach(fault => {
                         const faultName = fault.name[currentLang] || fault.name.ar;
-                        chillerFaultSelect.append(`<option value="${index}">${faultName}</option>`);
+                        chillerSelect.append(`<option value="${faultName}">${faultName}</option>`);
                     });
 
-                    chillerFaultSelect.off('change').on('change', function() {
-                        const selectedIndex = $(this).val();
-                        chillerDetailsDiv.empty();
+                    // Add change listener to the dropdown
+                    chillerSelect.off('change').on('change', function() {
+                        const selectedFaultName = $(this).val();
+                        chillerDetailsDiv.empty(); // Clear previous details
 
-                        if (selectedIndex !== "") {
-                            const fault = data[selectedIndex];
-                            const faultName = fault.name[currentLang] || fault.name.ar;
-                            const checkText = fault.check[currentLang] || fault.check.ar;
-                            const solutionText = fault.solution[currentLang] || fault.solution.ar;
-
-                            chillerDetailsDiv.append(`
-                                <div class="card">
-                                    <div class="card-header">${translations[currentLang].chillers}: ${faultName}</div>
-                                    <div class="card-body">
-                                        <p><strong>${translations[currentLang].check}:</strong> ${checkText}</p>
-                                        <p><strong>${translations[currentLang].solution}:</strong> ${solutionText}</p>
+                        if (selectedFaultName) {
+                            const fault = data.find(f => (f.name[currentLang] || f.name.ar) === selectedFaultName);
+                            if (fault) {
+                                chillerDetailsDiv.append(`
+                                    <div class="card">
+                                        <div class="card-header">${translations[currentLang].chillers}: ${fault.name[currentLang] || fault.name.ar}</div>
+                                        <div class="card-body">
+                                            <p><strong>${translations[currentLang].check}:</strong> ${fault.check[currentLang] || fault.check.ar}</p>
+                                            <p><strong>${translations[currentLang].solution}:</strong> ${fault.solution[currentLang] || fault.solution.ar}</p>
+                                        </div>
                                     </div>
-                                </div>
-                            `);
+                                `);
+                            }
                         }
                     });
                 })
                 .catch(error => {
-                    console.warn(`Chiller data not loaded, showing 'Coming Soon': ${error.message}`);
-                    chillerFaultSelect.prop('disabled', true);
-                    chillerDetailsDiv.html(`
-                        <div class="card">
-                            <div class="card-body coming-soon">
-                                <i class="fas fa-hourglass-half"></i> <span id="chiller-coming-soon-text">${translations[currentLang].comingSoon}</span>
-                            </div>
-                        </div>
-                    `);
+                    console.warn(`Chiller data loading error: ${error.message}`);
+                    showComingSoon(chillerDetailsDiv, chillerSelect, 'chiller-dropdown-container');
                 });
         }
+        // END OF MODIFICATIONS FOR "COMING SOON" LOGIC
 
 
         function searchFaultsAndCodes(query) {
@@ -925,12 +751,13 @@
             searchResults.empty();
 
             if (query.trim() === '') {
-                return;
+                return; // Don't show results if query is empty
             }
 
             const lowerCaseQuery = query.toLowerCase();
             let hasResults = false;
 
+            // Search in faults.json (Symptoms)
             fetch('faults.json')
                 .then(response => response.ok ? response.json() : Promise.reject('faults.json not found'))
                 .then(data => {
@@ -938,6 +765,7 @@
                         const langKey = data[acType][currentLang] ? currentLang : 'ar';
                         for (const symptom in data[acType][langKey]) {
                             const fault = data[acType][langKey][symptom];
+                            // Search in symptom name, check, and solution
                             if (symptom.toLowerCase().includes(lowerCaseQuery) ||
                                 (fault[langKey === 'ar' ? 'فحص' : 'Check'] && fault[langKey === 'ar' ? 'فحص' : 'Check'].toLowerCase().includes(lowerCaseQuery)) ||
                                 (fault[langKey === 'ar' ? 'حل' : 'Solution'] && fault[langKey === 'ar' ? 'حل' : 'Solution'].toLowerCase().includes(lowerCaseQuery))) {
@@ -957,6 +785,7 @@
                 })
                 .catch(error => console.error('Error loading faults.json for search:', error));
 
+            // Search in faults2.json or faults3.json (Error Codes)
             const jsonFile = currentLang === 'ar' ? 'faults2.json' : 'faults3.json';
             fetch(jsonFile)
                 .then(response => response.ok ? response.json() : Promise.reject(`${jsonFile} not found`))
@@ -967,7 +796,7 @@
                             code.solution.toLowerCase().includes(lowerCaseQuery)) {
                             searchResults.append(`
                                 <div class="card">
-                                    <div class="card-header">${translations[currentLang].codes}: ${code.fault_name} (${acTypeTranslations[currentLang][code.category] || code.category} - ${code.brand || ''})</div>
+                                    <div class="card-header">${translations[currentLang].codes}: ${code.fault_name} (${acTypeTranslations[currentLang][code.category] || code.category})</div>
                                     <div class="card-body">
                                         <p><strong>${translations[currentLang].check}:</strong> ${code.check_text}</p>
                                         <p><strong>${translations[currentLang].solution}:</strong> ${code.solution}</p>
@@ -980,14 +809,14 @@
                 })
                 .catch(error => console.error(`Error loading ${jsonFile} for search:`, error));
             
-            fetch('chillers.json') // Single file
+            // Search in chillers.json
+            fetch('chillers.json')
                 .then(response => response.ok ? response.json() : Promise.resolve([]))
                 .then(data => {
                     data.forEach(item => {
-                        // Assuming item.name, item.check, item.solution are objects {ar: "...", en: "..."}
-                        const name = item.name[currentLang] || item.name.ar;
-                        const check = item.check[currentLang] || item.check.ar;
-                        const solution = item.solution[currentLang] || item.solution.ar;
+                        const name = item.name ? (item.name[currentLang] || item.name.ar || item.name) : '';
+                        const check = item.check ? (item.check[currentLang] || item.check.ar || item.check) : '';
+                        const solution = item.solution ? (item.solution[currentLang] || item.solution.ar || item.solution) : '';
 
                         if (name.toLowerCase().includes(lowerCaseQuery) ||
                             check.toLowerCase().includes(lowerCaseQuery) ||
@@ -1007,14 +836,14 @@
                 })
                 .catch(error => console.warn('Chillers JSON not found for search (expected if "coming soon"):', error));
             
-            fetch('cooling_rooms.json') // Single file
+            // Search in cooling_rooms.json
+            fetch('cooling_rooms.json')
                 .then(response => response.ok ? response.json() : Promise.resolve([]))
                 .then(data => {
                     data.forEach(item => {
-                        // Assuming item.name, item.check, item.solution are objects {ar: "...", en: "..."}
-                        const name = item.name[currentLang] || item.name.ar;
-                        const check = item.check[currentLang] || item.check.ar;
-                        const solution = item.solution[currentLang] || item.solution.ar;
+                        const name = item.name ? (item.name[currentLang] || item.name.ar || item.name) : '';
+                        const check = item.check ? (item.check[currentLang] || item.check.ar || item.check) : '';
+                        const solution = item.solution ? (item.solution[currentLang] || item.solution.ar || item.solution) : '';
 
                         if (name.toLowerCase().includes(lowerCaseQuery) ||
                             check.toLowerCase().includes(lowerCaseQuery) ||
@@ -1038,40 +867,14 @@
         $(document).ready(function() {
             updateSymptoms();
             updateCodes();
-            updateCoolingRooms();
-            updateChillers();
+            updateCoolingRooms(); // Call this to show "Coming Soon" or load data
+            updateChillers();    // Call this to show "Coming Soon" or load data
 
             $('#search-input').on('input', function() {
-            const query = $(this).val();
-            if (query.length > 0) {
+                const query = $(this).val();
                 searchFaultsAndCodes(query);
-            } else {
-                $('#search-results').empty();
-            }
-        });
+            });
             $('#lang-switch').on('click', switchLanguage);
-
-            $('#privacy-policy-link').on('click', function(e) {
-                e.preventDefault();
-                $('#privacy-policy-section').toggle();
-                $('#terms-of-service-section').hide();
-                if ($('#privacy-policy-section').is(':visible')) {
-                    $('html, body').animate({
-                        scrollTop: $('#privacy-policy-section').offset().top - 70
-                    }, 500);
-                }
-            });
-
-            $('#terms-of-service-link').on('click', function(e) {
-                e.preventDefault();
-                $('#terms-of-service-section').toggle();
-                $('#privacy-policy-section').hide();
-                if ($('#terms-of-service-section').is(':visible')) {
-                    $('html, body').animate({
-                        scrollTop: $('#terms-of-service-section').offset().top - 70
-                    }, 500);
-                }
-            });
 
             // Initial language setup based on HTML dir attribute
             if ($('html').attr('dir') === 'ltr') {
@@ -1080,6 +883,5 @@
             switchLanguage(); // Apply initial translations based on currentLang
         });
     </script>
->>>>>>> 8b8de4a (Initial commit: AC Faults Encyclopedia project files)
 </body>
 </html>
